@@ -5,11 +5,11 @@
     "homepage": "https://github.com/arashsaffari/html5_bootstrap",
     "license": "MIT",
     "authors": [
-        { "name": "Arash Saffari", "email": "arash@saffari.com" }
+        { 
+            "name": "Arash Saffari",
+            "email": "arash@saffari.com" 
+        }
     ],
-    "require": {
-        "twbs/bootstrap": "*"
-    },
     "target-dir": "html5_bootstrap",
     "minimum-stability": "stable"
 }

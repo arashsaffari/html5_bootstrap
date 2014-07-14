@@ -79,7 +79,7 @@ Base Colors
 .bordercolor_6,
 .hoverbgbordercolor_6:hover{border-color:# !important;}
 
-.color_seventh,
+.color_7,
 .hovercolor_7:hover     {color: #}
 .bgcolor_7,
 .hoverbgcolor_7:hover   {background-color: #}
@@ -105,9 +105,18 @@ Base Colors
 /****************
 Base padding & Margin
 *****************/
+.margin_top_xxl         {margin-top: 100px;}
+.margin_bottom_xxl      {margin-bottom: 100px;}
+.margin_xx              {margin-top: 100px;margin-bottom: 100px;}
+
+.padding_top_xxl        {padding-top: 100px;}
+.padding_bottom_xxl     {padding-bottom: 100px;}
+.padding_xxl            {padding-top: 100px;padding-bottom: 100px;}
+
+
 .margin_top_xl          {margin-top: 80px;}
 .margin_bottom_xl       {margin-bottom: 80px;}
-.margin_XL              {margin-top: 80px;margin-bottom: 80px;}
+.margin_xl              {margin-top: 80px;margin-bottom: 80px;}
 
 .padding_top_xl         {padding-top: 80px;}
 .padding_bottom_xl      {padding-bottom: 80px;}
