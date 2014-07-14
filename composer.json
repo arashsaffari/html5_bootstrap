@@ -7,6 +7,9 @@
     "authors": [
         { "name": "Arash Saffari", "email": "arash@saffari.com" }
     ],
+    "require": {
+        "twbs/bootstrap": "*"
+    }
     "target-dir": "startup_html",
     "minimum-stability": "stable"
 }
