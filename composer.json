@@ -1,0 +1,12 @@
+{
+    "name": "arashsaffari/startup_html",
+    "description": "",
+    "keywords": ["arash", "saffari", "html", "startup", "html"],
+    "homepage": "https://github.com/arashsaffari/startup_html",
+    "license": "MIT",
+    "authors": [
+        { "name": "Arash Saffari", "email": "arash@saffari.com" }
+    ],
+    "target-dir": "startup_html",
+    "minimum-stability": "stable"
+}
