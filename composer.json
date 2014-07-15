@@ -10,6 +10,6 @@
             "email": "arash@saffari.com" 
         }
     ],
-    "target-dir": "html5_bootstrap",
+    "target-dir": "./",
     "minimum-stability": "stable"
 }
