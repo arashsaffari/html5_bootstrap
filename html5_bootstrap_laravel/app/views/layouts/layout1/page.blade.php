@@ -9,6 +9,8 @@
     
     <title>@if(isset($header_page_title)){{$header_page_title}} | @endif{{$header_site_title}}</title>
 
+    <base href="{{ asset('') }}" />
+
     @if(isset($header_meta_robots))<meta name="robots" content="{{$header_meta_robots}}">@endif
 
     @if(isset($header_meta_desc))<meta name="description" content="{{$header_meta_desc}}">@endif
@@ -25,38 +27,39 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="{{$header_site_title}}">
 
-    {{ HTML::style('files/plugins/bootstrap/3.2.0/css/bootstrap.min.css') }}
-    {{ HTML::style('files/plugins/bootstrap/3.2.0/css/bootstrap-theme.min.css') }}
+    {{ HTML::style('files/general/plugins/bootstrap/3.2.0/css/bootstrap.min.css') }}
+    {{ HTML::style('files/general/plugins/bootstrap/3.2.0/css/bootstrap-theme.min.css') }}
 
-    {{ HTML::style('files/fonts/icomoon/style.css') }}
+    {{ HTML::style('files/general/fonts/icomoon/style.css') }}
 
     @yield('header_style_custom')
     
-    {{ HTML::style('files/css/style.css') }}
-    {{ HTML::style('files/css/responsive.css') }}
-    {{ HTML::script('files/js/modernizr.2.7.1.js') }}
+    {{ HTML::style('files/general/css/style.css') }}
+    {{ HTML::style('files/general/css/responsive.css') }}
+    {{ HTML::script('files/general/js/modernizr.2.7.1.js') }}
     <!--[if IE 8]>
-        {{ HTML::style('files/css/style-ie8.css') }}
-        {{ HTML::script('files/js/files/js/respond_IE6-8.js') }}
+        {{ HTML::style('files/general/css/style-ie8.css') }}
+        {{ HTML::script('files/general/js/files/js/respond_IE6-8.js') }}
     <![endif]-->
 
-    <link href="files/as_template/general/img/favicon/favicon.ico" rel="shortcut icon">
+    {{ HTML::style('files/general/img/favicon/favicon.ico',array('media'=>null,'type'=>null,'rel'=>'shortcut icon')) }}
 
-    <link href="files/as_template/general/img/favicon/apple-touch-icon-152x152.png" sizes="152x152" rel="apple-touch-icon">
-    <link href="files/as_template/general/img/favicon/apple-touch-icon-144x144.png" sizes="144x144" rel="apple-touch-icon">
-    <link href="files/as_template/general/img/favicon/apple-touch-icon-120x120.png" sizes="120x120" rel="apple-touch-icon">
-    <link href="files/as_template/general/img/favicon/apple-touch-icon-114x114.png" sizes="114x114" rel="apple-touch-icon">
-    <link href="files/as_template/general/img/favicon/apple-touch-icon-76x76.png" sizes="76x76" rel="apple-touch-icon">
-    <link href="files/as_template/general/img/favicon/apple-touch-icon-72x72.png" sizes="72x72" rel="apple-touch-icon">
-    <link href="files/as_template/general/img/favicon/apple-touch-icon-57x57.png" sizes="57x57" rel="apple-touch-icon">
+    {{ HTML::style('files/general/img/favicon/apple-touch-icon-152x152.png',array('sizes'=>'152x152', 'rel'=>'apple-touch-icon', 'media'=>null, 'type'=>null)) }}
+    {{ HTML::style('files/general/img/favicon/apple-touch-icon-144x144.png',array('sizes'=>'144x144', 'rel'=>'apple-touch-icon', 'media'=>null, 'type'=>null)) }}
+    {{ HTML::style('files/general/img/favicon/apple-touch-icon-120x120.png',array('sizes'=>'120x120', 'rel'=>'apple-touch-icon', 'media'=>null, 'type'=>null)) }}
+    {{ HTML::style('files/general/img/favicon/apple-touch-icon-114x114.png',array('sizes'=>'114x114', 'rel'=>'apple-touch-icon', 'media'=>null, 'type'=>null)) }}
+    {{ HTML::style('files/general/img/favicon/apple-touch-icon-76x76.png',array('sizes'=>'76x76', 'rel'=>'apple-touch-icon', 'media'=>null, 'type'=>null)) }}
+    {{ HTML::style('files/general/img/favicon/apple-touch-icon-72x72.png',array('sizes'=>'72x72', 'rel'=>'apple-touch-icon', 'media'=>null, 'type'=>null)) }}
+    {{ HTML::style('files/general/img/favicon/apple-touch-icon-57x57.png',array('sizes'=>'57x57', 'rel'=>'apple-touch-icon', 'media'=>null, 'type'=>null)) }}
 
-    <link href="files/as_template/general/img/startup/apple-touch-startup-image-1536x2008.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-    <link href="files/as_template/general/img/startup/apple-touch-startup-image-1496x2048.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-    <link href="files/as_template/general/img/startup/apple-touch-startup-image-768x1004.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
-    <link href="files/as_template/general/img/startup/apple-touch-startup-image-748x1024.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
-    <link href="files/as_template/general/img/startup/apple-touch-startup-image-640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-    <link href="files/as_template/general/img/startup/apple-touch-startup-image-640x920.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-    <link href="files/as_template/general/img/startup/apple-touch-startup-image-320x460.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+    {{ HTML::style('files/general/img/startup/apple-touch-startup-image-1536x2008.png',array('rel'=>'apple-touch-startup-image', 'media'=>'(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)', 'type'=>null)) }}
+    {{ HTML::style('files/general/img/startup/apple-touch-startup-image-1496x2048.png',array('rel'=>'apple-touch-startup-image', 'media'=>'(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)', 'type'=>null)) }}
+    {{ HTML::style('files/general/img/startup/apple-touch-startup-image-768x1004.png',array('rel'=>'apple-touch-startup-image', 'media'=>'(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)', 'type'=>null)) }}
+
+    {{ HTML::style('files/general/img/startup/apple-touch-startup-image-748x1024.png',array('rel'=>'apple-touch-startup-image', 'media'=>'(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)', 'type'=>null)) }}
+    {{ HTML::style('files/general/img/startup/apple-touch-startup-image-640x1096.png',array('rel'=>'apple-touch-startup-image', 'media'=>'(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)', 'type'=>null)) }}
+    {{ HTML::style('files/general/img/startup/apple-touch-startup-image-640x920.png',array('rel'=>'apple-touch-startup-image', 'media'=>'(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)', 'type'=>null)) }}
+    {{ HTML::style('files/general/img/startup/apple-touch-startup-image-320x460.png',array('rel'=>'apple-touch-startup-image', 'media'=>'(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)', 'type'=>null)) }}
     
     @yield('header_last_custom')
 </head>  
@@ -85,14 +88,17 @@
     </footer>
     @yield('body_footer_after')
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="files/js/jquery-1.11.1.min.js"><\/script>')</script>
+    {{ HTML::script('//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')}}
+    <script>window.jQuery || document.write('<script src="{{ asset('files/general/js/jquery-1.11.1.min.js') }}"><\/script>')</script>
     
-	<script src="files/plugins/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    {{ HTML::script('files/general/plugins/bootstrap/3.2.0/js/bootstrap.min.js')}}
+    
     @yield('body_js_custom')
-    <script src="files/js/settings.js"></script>
+
+    {{ HTML::script('files/general/js/settings.js')}}
     
     @yield('body_last_custom')
 
 </body>  
 </html>
+
