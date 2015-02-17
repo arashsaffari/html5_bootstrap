@@ -1,0 +1,173 @@
+/****************
+Base styles
+*****************/
+
+*{-webkit-user-select: text!important;}
+html { -webkit-text-size-adjust: 100%; }
+
+body
+{
+	/* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+    
+    font-family:$body_font;
+    font-size: $body_font_size;
+    color:$body_color;
+}
+
+::-moz-selection {background: $selection_color;text-shadow: none;}
+::selection {background: $selection_color;text-shadow: none;}
+
+/* Remove the gap between elemets*/
+audio,canvas,img,video {vertical-align: middle;}
+
+
+
+
+
+/****************
+Base Colors
+*****************/
+.color_default,
+.hovercolor_default:hover   {color:#000}
+.bgcolor_default,
+.hoverbgcolor_default:hover{background-color: #000}
+.bordercolor_default,
+.hoverbgbordercolor_default:hover{border-color:#000 !important;}
+
+.color_1,
+.hovercolor_1:hover     {color: #FFF}
+.bgcolor_1,
+.hoverbgcolor_1:hover   {background-color: #FFF}
+.bordercolor_1,
+.hoverbgbordercolor_1:hover{border-color:#FFF !important;}
+
+/*
+.color_2,
+.hovercolor_2:hover    {color: #}
+.bgcolor_2,
+.hoverbgcolor_2:hover  {background-color: #}
+.bordercolor_2,
+.hoverbgbordercolor_2:hover{border-color:# !important;}
+
+.color_3,
+.hovercolor_3:hover     {color: #}
+.bgcolor_3,
+.hoverbgcolor_3:hover   {background-color: #}
+.bordercolor_3,
+.hoverbgbordercolor_3:hover{border-color:# !important;}
+
+.color_4,
+.hovercolor_4:hover    {color: #}
+.bgcolor_4,
+.hoverbgcolor_4:hover  {background-color: #}
+.bordercolor_4,
+.hoverbgbordercolor_4:hover{border-color:# !important;}
+
+.color_5,
+.hovercolor_5:hover     {color: #}
+.bgcolor_5,
+.hoverbgcolor_5:hover   {background-color: #}
+.bordercolor_5,
+.hoverbgbordercolor_5:hover{border-color:# !important;}
+
+.color_6,
+.hovercolor_6:hover     {color: #}
+.bgcolor_6,
+.hoverbgcolor_6:hover   {background-color: #}
+.bordercolor_6,
+.hoverbgbordercolor_6:hover{border-color:# !important;}
+
+.color_7,
+.hovercolor_7:hover     {color: #}
+.bgcolor_7,
+.hoverbgcolor_7:hover   {background-color: #}
+.bordercolor_7,
+.hoverbgbordercolor_7:hover{border-color:# !important;}
+
+.color_8,
+.hovercolor_8:hover     {color: #}
+.bgcolor_8,
+.hoverbgcolor_8:hover   {background-color: #}
+.bordercolor_8,
+.hoverbgbordercolor_8:hover{border-color:# !important;}
+
+.hovercolor_9:hover     {color: #}
+.bgcolor_9,
+.hoverbgcolor_9:hover   {background-color: #}
+.bordercolor_9,
+.hoverbgbordercolor_9:hover{border-color:# !important;}
+*/
+
+
+
+/****************
+Base padding & Margin
+*****************/
+.margin_top_xxl         {margin-top: $padding_margin_xxl;}
+.margin_bottom_xxl      {margin-bottom: $padding_margin_xxl;}
+.margin_xx              {margin-top: $padding_margin_xxl;margin-bottom: $padding_margin_xxl;}
+
+.padding_top_xxl        {padding-top: $padding_margin_xxl;}
+.padding_bottom_xxl     {padding-bottom: $padding_margin_xxl;}
+.padding_xxl            {padding-top: $padding_margin_xxl;padding-bottom: $padding_margin_xxl;}
+
+
+.margin_top_xl          {margin-top: $padding_margin_xl;}
+.margin_bottom_xl       {margin-bottom: $padding_margin_xl;}
+.margin_xl              {margin-top: $padding_margin_xl;margin-bottom: $padding_margin_xl;}
+
+.padding_top_xl         {padding-top: $padding_margin_xl;}
+.padding_bottom_xl      {padding-bottom: $padding_margin_xl;}
+.padding_xl             {padding-top: $padding_margin_xl;padding-bottom: $padding_margin_xl;}
+
+
+.margin_top_l           {margin-top: $padding_margin_l;}
+.margin_bottom_l        {margin-bottom: $padding_margin_l;}
+.margin_l               {margin-top: $padding_margin_l;margin-bottom: $padding_margin_l;}
+
+.padding_top_l          {padding-top: $padding_margin_l;}
+.padding_bottom_l       {padding-bottom: $padding_margin_l;}
+.padding_l              {padding-top: $padding_margin_l;padding-bottom: $padding_margin_l;}
+
+
+.margin_top_m           {margin-top: $padding_margin_m;}
+.margin_bottom_m        {margin-bottom: $padding_margin_m;}
+.margin_m               {margin-top: $padding_margin_m;margin-bottom: $padding_margin_m;}
+
+.padding_top_m          {padding-top: $padding_margin_m;}
+.padding_bottom_m       {padding-bottom: $padding_margin_m;}
+.padding_m              {padding-top: $padding_margin_m;padding-bottom: $padding_margin_m;}
+
+
+.margin_top_s           {margin-top: $padding_margin_s;}
+.margin_bottom_s        {margin-bottom: $padding_margin_s;}
+.margin_s               {margin-top: $padding_margin_s;margin-bottom: $padding_margin_s;}
+
+.padding_top_s          {padding-top: $padding_margin_s;}
+.padding_bottom_s       {padding-bottom: $padding_margin_s;}
+.padding_s              {padding-top: $padding_margin_s;padding-bottom: $padding_margin_s;}
+
+
+.margin_top_xs           {margin-top: $padding_margin_xs;}
+.margin_bottom_xs        {margin-bottom: $padding_margin_xs;}
+.margin_xs               {margin-top: $padding_margin_xs;margin-bottom: $padding_margin_xs;}
+
+.padding_top_xs          {padding-top: $padding_margin_xs;}
+.padding_bottom_xs       {padding-bottom: $padding_margin_xs;}
+.padding_xs              {padding-top: $padding_margin_xs;padding-bottom: $padding_margin_xs;}
+
+
+
+
+/****************
+custom styles
+*****************/
+
+
+
+
+
+
+
