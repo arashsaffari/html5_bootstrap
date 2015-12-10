@@ -1,8 +1,0 @@
-echo ""
-echo ""
-
-here="`dirname \"$0\"`"
-
-cd "$here"
-
-php "./watch_scss.php"

@@ -1,11 +1,98 @@
-$body_font:			 	'', sans-serif;
-$body_font_size:		14px;
-$body_color:			#575757;
-$selection_color: 		#b3d4fc;
+/*---------------------------------
+ [Colors]
+-----------------------------------*/
+$color_default:				#000;
+$color_1:					#000;
+$color_2:					#000;
+$color_3:					#000;
+$color_4:					#000;
+$color_5:					#000;
+$color_6:					#000;
+$color_7:					#000;
+$color_8:					#000;
+$color_9:					#000;
 
-$padding_margin_xxl:	100px;
-$padding_margin_xl:		80px;
-$padding_margin_l:		60px;
-$padding_margin_m:		40px;
-$padding_margin_s:		20px;
-$padding_margin_xs:		10px;
+$a_color:					$color_1;
+$a_hover_color: 			$color_2;
+
+$body_color:				$color_default;
+$body_backgound_color:		#fff;
+$selection_color: 			$color_2;
+$selection_backgound_color:	rgba($color_1, 0.5);
+
+
+/*---------------------------------
+ [Typography]
+-----------------------------------*/
+$font_style_1: 				sans-serif;
+$font_style_2: 				sans-serif;
+$font_style_3: 				sans-serif;
+
+$body_font:			 		$font_style_1;
+$body_font_size:			16px;
+$body_font_weight:			normal;
+
+$p_line_height:				1.7;
+
+$h1_font_size_desktop:		4em;
+$h2_font_size_desktop:		3em;
+$h3_font_size_desktop: 		2.5em;
+$h4_font_size_desktop: 		1.5em;
+$h5_font_size_desktop: 		1.25em;
+$h6_font_size_desktop: 		1.125em;
+$h2_span_font_size_desktop:	.625em;
+
+$h2_font_size_iphone_portrait:		2.2em;
+$h2_font_size_iphone_portrait:		2.2em;
+$h3_font_size_iphone_portrait: 		1.5em;
+$h4_font_size_iphone_portrait: 		$h4_font_size_desktop;
+$h5_font_size_iphone_portrait: 		$h5_font_size_desktop;
+$h6_font_size_iphone_portrait: 		$h6_font_size_desktop;
+$h2_span_font_size_iphone_portrait:	$h2_span_font_size_desktop;
+
+$h2_font_size_iphone_landscape:		2.2em;
+$h3_font_size_iphone_landscape: 	1.5em;
+$h4_font_size_iphone_landscape: 	$h4_font_size_iphone_portrait;
+$h5_font_size_iphone_landscape: 	$h5_font_size_iphone_portrait;
+$h6_font_size_iphone_landscape: 	$h6_font_size_iphone_portrait;
+$h2_span_font_size_iphone_landscape:$h2_span_font_size_iphone_portrait;
+
+$h2_font_size_ipad_portrait:		2.7em;
+$h3_font_size_ipad_portrait: 		2.0em;
+$h4_font_size_ipad_portrait: 		$h4_font_size_desktop;
+$h5_font_size_ipad_portrait: 		$h5_font_size_desktop;
+$h6_font_size_ipad_portrait: 		$h6_font_size_desktop;
+$h2_span_font_size_ipad_portrait:	$h2_span_font_size_desktop;
+
+$h2_font_size_ipad_landscape:		2.9em;
+$h3_font_size_ipad_landscape: 		2.2em;
+$h4_font_size_ipad_landscape: 		$h4_font_size_ipad_portrait;
+$h5_font_size_ipad_landscape: 		$h5_font_size_ipad_portrait;
+$h6_font_size_ipad_landscape: 		$h6_font_size_ipad_portrait;
+$h2_span_font_size_ipad_landscape:	$h2_span_font_size_ipad_portrait;
+
+
+/*---------------------------------
+ [Theme global vars]
+-----------------------------------*/
+$padding_margin_xxl:		100px;
+$padding_margin_xl:			80px;
+$padding_margin_l:			60px;
+$padding_margin_m:			40px;
+$padding_margin_s:			20px;
+$padding_margin_xs:			10px;
+
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin box-shadow($shadow,$color) {
+	-webkit-box-shadow: $shadow $color;
+	   -moz-box-shadow: $shadow $color;
+		    box-shadow: $shadow $color;
+}
+
