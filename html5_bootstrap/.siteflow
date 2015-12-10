@@ -58,17 +58,14 @@
       ],
       "output" : "files\/fonts\/font-awesome\/4.5.0\/scss\/font-awesome.css"
     },
-    "files\/css\/scss\/base.css" : {
-      "output" : "files\/css\/scss\/base.out.css"
-    },
-    "files\/fonts\/font-awesome\/4.5.0\/scss\/_bordered-pulled.scss" : {
-      "output" : "files\/fonts\/font-awesome\/4.5.0\/scss\/_bordered-pulled.css",
+    "files\/css\/scss\/includes\/_print.scss" : {
+      "output" : "files\/css\/scss\/includes\/_print.css",
       "profiles" : {
         "sass" : "00000000-0000-0000-0000-000000000000"
       }
     },
-    "files\/css\/scss\/includes\/_print.scss" : {
-      "output" : "files\/css\/scss\/includes\/_print.css",
+    "files\/fonts\/font-awesome\/4.5.0\/scss\/_bordered-pulled.scss" : {
+      "output" : "files\/fonts\/font-awesome\/4.5.0\/scss\/_bordered-pulled.css",
       "profiles" : {
         "sass" : "00000000-0000-0000-0000-000000000000"
       }
@@ -78,6 +75,12 @@
     },
     "files\/fonts\/font-awesome\/4.5.0\/less\/fixed-width.less" : {
       "output" : "files\/fonts\/font-awesome\/4.5.0\/less\/fixed-width.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/fonts\/font-awesome\/4.5.0\/less\/icons.less" : {
+      "output" : "files\/fonts\/font-awesome\/4.5.0\/less\/icons.css",
       "profiles" : {
         "less" : "00000000-0000-0000-0000-000000000000"
       }
@@ -125,12 +128,6 @@
     },
     "files\/plugins\/bootstrap\/3.3.6\/css\/bootstrap.min.css" : {
       "output" : "files\/plugins\/bootstrap\/3.3.6\/css\/bootstrap.min.out.css"
-    },
-    "files\/fonts\/font-awesome\/4.5.0\/less\/icons.less" : {
-      "output" : "files\/fonts\/font-awesome\/4.5.0\/less\/icons.css",
-      "profiles" : {
-        "less" : "00000000-0000-0000-0000-000000000000"
-      }
     },
     "files\/css\/style-ie8.css" : {
       "output" : "files\/css\/style-ie8.out.css"
