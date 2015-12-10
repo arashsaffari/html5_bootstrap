@@ -1,0 +1,230 @@
+{
+  "id" : "00000000-0000-0000-0000-000000000000",
+  "javascriptIndentation" : 4,
+  "files" : {
+    "files\/plugins\/bootstrap\/3.3.6\/css\/bootstrap-theme.min.css" : {
+      "output" : "files\/plugins\/bootstrap\/3.3.6\/css\/bootstrap-theme.min.out.css"
+    },
+    "files\/css\/scss\/base.scss" : {
+      "imports" : [
+        "files\/css\/scss\/includes\/_variables.scss",
+        "files\/css\/scss\/includes\/_style.scss",
+        "files\/css\/scss\/includes\/_print.scss",
+        "files\/css\/scss\/includes\/_responsive.scss"
+      ],
+      "output" : "files\/css\/scss\/base.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/css\/scss\/includes\/_variables.scss" : {
+      "output" : "files\/css\/scss\/includes\/_variables.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/plugins\/bootstrap\/3.3.6\/css\/bootstrap.css" : {
+      "output" : "files\/plugins\/bootstrap\/3.3.6\/css\/bootstrap.out.css"
+    },
+    "files\/plugins\/bootstrap\/3.3.6\/js\/bootstrap.min.js" : {
+      "output" : "files\/plugins\/bootstrap\/3.3.6\/js\/bootstrap.min.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/js\/respond_IE6-8.js" : {
+      "output" : "files\/js\/respond_IE6-8.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/js\/settings.js" : {
+      "output" : "files\/js\/settings.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/plugins\/bootstrap\/3.3.6\/css\/bootstrap-theme.css" : {
+      "output" : "files\/plugins\/bootstrap\/3.3.6\/css\/bootstrap-theme.out.css"
+    },
+    "files\/plugins\/bootstrap\/3.3.6\/css\/bootstrap.min.css" : {
+      "output" : "files\/plugins\/bootstrap\/3.3.6\/css\/bootstrap.min.out.css"
+    },
+    "files\/fonts\/icomoon\/demo-files\/demo.js" : {
+      "output" : "files\/fonts\/icomoon\/demo-files\/demo.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/js\/jquery-1.11.2.min.js" : {
+      "output" : "files\/js\/jquery-1.11.2.min.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/css\/scss\/includes\/_print.scss" : {
+      "output" : "files\/css\/scss\/includes\/_print.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/css\/scss\/includes\/_style.scss" : {
+      "output" : "files\/css\/scss\/includes\/_style.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/css\/style-ie8.css" : {
+      "output" : "files\/css\/style-ie8.out.css"
+    },
+    "files\/fonts\/icomoon\/demo-files\/demo.css" : {
+      "output" : "files\/fonts\/icomoon\/demo-files\/demo.out.css"
+    },
+    "files\/plugins\/bootstrap\/3.3.6\/js\/npm.js" : {
+      "output" : "files\/plugins\/bootstrap\/3.3.6\/js\/npm.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/js\/jquery-migrate-1.2.1.min.js" : {
+      "output" : "files\/js\/jquery-migrate-1.2.1.min.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/plugins\/bootstrap\/3.3.6\/js\/bootstrap.js" : {
+      "output" : "files\/plugins\/bootstrap\/3.3.6\/js\/bootstrap.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/fonts\/icomoon\/style.css" : {
+      "output" : "files\/fonts\/icomoon\/style.out.css"
+    },
+    "files\/css\/base.css" : {
+      "output" : "files\/css\/base.out.css"
+    },
+    "files\/css\/scss\/includes\/_responsive.scss" : {
+      "output" : "files\/css\/scss\/includes\/_responsive.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/js\/modernizr-2.8.3.min.js" : {
+      "output" : "files\/js\/modernizr-2.8.3.min.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    }
+  },
+  "flows" : {
+    "stylus" : {
+      "stylus" : "00000000-0000-0000-0000-000000000000",
+      "output" : "*.css"
+    },
+    "sass" : {
+      "sass" : "00000000-0000-0000-0000-000000000000",
+      "output" : "*.css"
+    },
+    "coffee" : {
+      "coffee" : "00000000-0000-0000-0000-000000000000",
+      "jshint" : "00000000-0000-0000-0000-000000000000",
+      "output" : "*.js",
+      "uglify" : "00000000-0000-0000-0000-000000000000"
+    },
+    "jinja" : {
+      "jinja" : "00000000-0000-0000-0000-000000000000",
+      "output" : "*"
+    },
+    "less" : {
+      "less" : "00000000-0000-0000-0000-000000000000",
+      "output" : "*.css"
+    },
+    "css" : {
+      "output" : "*.out.css"
+    },
+    "js" : {
+      "jshint" : "00000000-0000-0000-0000-000000000000",
+      "uglify" : "00000000-0000-0000-0000-000000000000",
+      "output" : "*.out.js"
+    }
+  },
+  "profiles" : {
+    "stylus" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "mediaquery" : false,
+        "name" : "Default Stylus Profile",
+        "comments" : false,
+        "format" : 1
+      }
+    },
+    "coffee" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "name" : "Default CoffeeScript Profile",
+        "bare" : false
+      }
+    },
+    "sass" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "name" : "Default Sass Profile",
+        "style" : "compressed",
+        "debug" : 0
+      }
+    },
+    "jshint" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "name" : "Default JSHint Profile",
+        "options" : [
+          "undef",
+          "unused",
+          "bitwise",
+          "curly",
+          "eqeqeq",
+          "latedef",
+          "newcap",
+          "noarg",
+          "nonew",
+          "trailing",
+          "browser",
+          "jquery"
+        ],
+        "globals" : ""
+      }
+    },
+    "less" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "imports" : false,
+        "mediaquery" : false,
+        "name" : "Default Less Profile",
+        "comments" : false,
+        "format" : 1
+      }
+    },
+    "jinja" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "name" : "Default Jinja Profile",
+        "autoescape" : false
+      }
+    },
+    "uglify" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "name" : "Default UglifyJS Profile",
+        "options" : [
+          "--mangle",
+          "--compress",
+          "beautify"
+        ]
+      }
+    }
+  },
+  "version" : 10100
+}
