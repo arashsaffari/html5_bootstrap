@@ -1,0 +1,180 @@
+/*---------------------------------
+ [Colors]
+-----------------------------------*/
+$colors-list: 
+	#000		//body Color
+	#39B164		//link Color
+	#99B139 	//link hover color
+	#B18339
+	#B13939		
+	#B1399E
+	#8839B1
+	#4839B1
+	#3996B1
+	#39B194
+;
+
+$a_color:					nth($colors-list, 2);
+$a_hover_color: 			nth($colors-list, 3);
+
+$body_color:				nth($colors-list, 1);
+$body_backgound_color:		#fff;
+$selection_color: 			nth($colors-list, 3);
+$selection_backgound_color:	rgba(
+	red(nth($colors-list, 1)),
+	green(nth($colors-list, 1)),
+	blue(nth($colors-list, 1)),
+	0.5
+);
+
+
+/*---------------------------------
+ [Spacing]
+-----------------------------------*/
+$spacers: (
+	05 5px,
+	10 10px,
+	15 15px,
+	20 20px,
+	30 30px,
+	40 40px,
+	50 50px,
+	60 60px,
+	70 70px,
+	80 80px,
+	90 90px,
+	100 100px,
+	110 110px,
+	120 120px,
+	130 130px,
+	140 140px,
+	150 150px,
+  ) !default;
+
+
+/*---------------------------------
+ [breakpoints]
+-----------------------------------*/
+$grid-breakpoints: (
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px
+  ) !default;
+
+/*---------------------------------
+ [Typography]
+-----------------------------------*/
+$fontstyles_1: "Poppins", sans-serif;
+$fontstyles_2: "Quicksand", sans-serif;
+$fontstyles_3: "Raleway", sans-serif;
+
+
+$body_font:			 		$fontstyles_1;
+$body_font_size:			16px;
+$body_font_weight:			normal;
+
+$p_line_height:				1.6;
+
+$h1_font_size_desktop:		2.5em;
+$h2_font_size_desktop:		2.2em;
+$h3_font_size_desktop: 		2em;
+$h4_font_size_desktop: 		1.7em;
+$h5_font_size_desktop: 		1.5em;
+$h6_font_size_desktop: 		1.3em;
+$h2_span_font_size_desktop:	1.1em;
+
+$h2_font_size_iphone_portrait:		2.2em;
+$h2_font_size_iphone_portrait:		2.2em;
+$h3_font_size_iphone_portrait: 		1.5em;
+$h4_font_size_iphone_portrait: 		$h4_font_size_desktop;
+$h5_font_size_iphone_portrait: 		$h5_font_size_desktop;
+$h6_font_size_iphone_portrait: 		$h6_font_size_desktop;
+$h2_span_font_size_iphone_portrait:	$h2_span_font_size_desktop;
+
+$h2_font_size_iphone_landscape:		2.2em;
+$h3_font_size_iphone_landscape: 	1.5em;
+$h4_font_size_iphone_landscape: 	$h4_font_size_iphone_portrait;
+$h5_font_size_iphone_landscape: 	$h5_font_size_iphone_portrait;
+$h6_font_size_iphone_landscape: 	$h6_font_size_iphone_portrait;
+$h2_span_font_size_iphone_landscape:$h2_span_font_size_iphone_portrait;
+
+$h2_font_size_ipad_portrait:		2.7em;
+$h3_font_size_ipad_portrait: 		2.0em;
+$h4_font_size_ipad_portrait: 		$h4_font_size_desktop;
+$h5_font_size_ipad_portrait: 		$h5_font_size_desktop;
+$h6_font_size_ipad_portrait: 		$h6_font_size_desktop;
+$h2_span_font_size_ipad_portrait:	$h2_span_font_size_desktop;
+
+$h2_font_size_ipad_landscape:		2.9em;
+$h3_font_size_ipad_landscape: 		2.2em;
+$h4_font_size_ipad_landscape: 		$h4_font_size_ipad_portrait;
+$h5_font_size_ipad_landscape: 		$h5_font_size_ipad_portrait;
+$h6_font_size_ipad_landscape: 		$h6_font_size_ipad_portrait;
+$h2_span_font_size_ipad_landscape:	$h2_span_font_size_ipad_portrait;
+
+
+/*---------------------------------
+ [Theme global vars]
+-----------------------------------*/
+$padding_margin_xxl:		100px;
+$padding_margin_xl:			80px;
+$padding_margin_l:			60px;
+$padding_margin_m:			40px;
+$padding_margin_s:			20px;
+$padding_margin_xs:			10px;
+
+
+@mixin border-radius ($radius: 5px) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius:    $radius;
+	border-radius:         $radius;
+
+	-moz-background-clip:    padding;
+	-webkit-background-clip: padding-box;
+	background-clip:         padding-box;
+}
+
+@mixin box-shadow ($string) {
+	-webkit-box-shadow: $string;
+	-moz-box-shadow:    $string;
+	box-shadow:         $string;
+}
+
+
+$breakpoints: (
+	xs: 0,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px
+  ) !default;
+
+@mixin breakpoint($bp, $rule: min-width) {
+	@media (#{$rule}: map-get($breakpoints, $bp)) {
+        @content;
+    }
+}
+
+
+
+
+/* sm */
+@media (min-width: 576px) {
+	
+}
+
+/* md */
+@media (min-width: 768px) { 
+
+}
+
+/* lg */
+@media (min-width: 992px) {
+
+}
+
+/* xl */
+@media (min-width: 1200px) {
+
+}

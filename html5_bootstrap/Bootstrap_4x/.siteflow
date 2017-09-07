@@ -1,0 +1,523 @@
+{
+  "id" : "980D91EC-055F-4287-AEA0-018B86CF3154",
+  "javascriptIndentation" : 4,
+  "files" : {
+    "files\/css\/scss\/includes\/_style.scss" : {
+      "output" : "files\/css\/scss\/includes\/_style.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/fonts\/font-awesome\/4.7.0\/scss\/_fixed-width.scss" : {
+      "output" : "files\/fonts\/font-awesome\/4.7.0\/scss\/_fixed-width.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/fonts\/font-awesome\/4.7.0\/less\/stacked.less" : {
+      "output" : "files\/fonts\/font-awesome\/4.7.0\/less\/stacked.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/fonts\/font-awesome\/4.7.0\/scss\/_icons.scss" : {
+      "output" : "files\/fonts\/font-awesome\/4.7.0\/scss\/_icons.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/plugins\/bootstrap\/4.0.0_beta\/css\/bootstrap-reboot.css" : {
+      "output" : "files\/plugins\/bootstrap\/4.0.0_beta\/css\/bootstrap-reboot.out.css"
+    },
+    "files\/css\/scss\/includes\/_main_menu.scss" : {
+      "output" : "files\/css\/scss\/includes\/_main_menu.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/fonts\/font-awesome\/4.7.0\/less\/core.less" : {
+      "output" : "files\/fonts\/font-awesome\/4.7.0\/less\/core.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/fonts\/font-awesome\/4.7.0\/less\/fixed-width.less" : {
+      "output" : "files\/fonts\/font-awesome\/4.7.0\/less\/fixed-width.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/js\/modernizr-2.8.3.min.js" : {
+      "output" : "files\/js\/modernizr-2.8.3.min.out.js"
+    },
+    "files\/js\/jquery-3.2.1.min.js" : {
+      "output" : "files\/js\/jquery-3.2.1.min.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/fonts\/font-awesome\/4.7.0\/css\/font-awesome.css" : {
+      "output" : "files\/fonts\/font-awesome\/4.7.0\/css\/font-awesome.out.css"
+    },
+    "files\/fonts\/font-awesome\/4.7.0\/scss\/_screen-reader.scss" : {
+      "output" : "files\/fonts\/font-awesome\/4.7.0\/scss\/_screen-reader.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/fonts\/font-awesome\/4.7.0\/less\/bordered-pulled.less" : {
+      "output" : "files\/fonts\/font-awesome\/4.7.0\/less\/bordered-pulled.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/plugins\/popper\/umd\/popper.min.js" : {
+      "output" : "files\/plugins\/popper\/umd\/popper.min.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/plugins\/bootstrap\/4.0.0_beta\/js\/bootstrap.min.js" : {
+      "output" : "files\/plugins\/bootstrap\/4.0.0_beta\/js\/bootstrap.min.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/fonts\/font-awesome\/4.7.0\/less\/screen-reader.less" : {
+      "output" : "files\/fonts\/font-awesome\/4.7.0\/less\/screen-reader.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/css\/scss\/includes\/_variables.scss" : {
+      "output" : "files\/css\/scss\/includes\/_variables.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/css\/scss\/includes\/_print.scss" : {
+      "output" : "files\/css\/scss\/includes\/_print.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/plugins\/bootstrap\/4.0.0_beta\/css\/bootstrap-reboot.min.css" : {
+      "output" : "files\/plugins\/bootstrap\/4.0.0_beta\/css\/bootstrap-reboot.min.out.css"
+    },
+    "files\/css\/scss\/base.css" : {
+      "output" : "files\/css\/scss\/base.out.css"
+    },
+    "files\/css\/scss\/includes\/_spacing.css" : {
+      "output" : "files\/css\/scss\/includes\/_spacing.out.css"
+    },
+    "files\/fonts\/font-awesome\/4.7.0\/scss\/_variables.scss" : {
+      "output" : "files\/fonts\/font-awesome\/4.7.0\/scss\/_variables.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/fonts\/font-awesome\/4.7.0\/less\/path.less" : {
+      "output" : "files\/fonts\/font-awesome\/4.7.0\/less\/path.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/fonts\/font-awesome\/4.7.0\/scss\/_path.scss" : {
+      "output" : "files\/fonts\/font-awesome\/4.7.0\/scss\/_path.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/plugins\/popper\/popper-utils.min.js" : {
+      "output" : "files\/plugins\/popper\/popper-utils.min.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/plugins\/popper\/esm\/popper.js" : {
+      "output" : "files\/plugins\/popper\/esm\/popper.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/fonts\/font-awesome\/4.7.0\/less\/icons.less" : {
+      "output" : "files\/fonts\/font-awesome\/4.7.0\/less\/icons.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/fonts\/font-awesome\/4.7.0\/less\/animated.less" : {
+      "output" : "files\/fonts\/font-awesome\/4.7.0\/less\/animated.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/fonts\/font-awesome\/4.7.0\/less\/variables.less" : {
+      "output" : "files\/fonts\/font-awesome\/4.7.0\/less\/variables.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/plugins\/popper\/umd\/popper-utils.js" : {
+      "output" : "files\/plugins\/popper\/umd\/popper-utils.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/plugins\/bootstrap\/4.0.0_beta\/js\/bootstrap.js" : {
+      "output" : "files\/plugins\/bootstrap\/4.0.0_beta\/js\/bootstrap.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/plugins\/popper\/esm\/popper.min.js" : {
+      "output" : "files\/plugins\/popper\/esm\/popper.min.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/plugins\/bootstrap\/4.0.0_beta\/css\/bootstrap.min.css" : {
+      "output" : "files\/plugins\/bootstrap\/4.0.0_beta\/css\/bootstrap.min.out.css"
+    },
+    "files\/plugins\/popper\/popper.min.js" : {
+      "output" : "files\/plugins\/popper\/popper.min.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/fonts\/font-awesome\/4.7.0\/less\/larger.less" : {
+      "output" : "files\/fonts\/font-awesome\/4.7.0\/less\/larger.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/fonts\/font-awesome\/4.7.0\/scss\/_animated.scss" : {
+      "output" : "files\/fonts\/font-awesome\/4.7.0\/scss\/_animated.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/js\/tether-1.3.3.min.js" : {
+      "output" : "files\/js\/tether-1.3.3.min.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/plugins\/bootstrap\/4.0.0_beta\/css\/bootstrap-grid.min.css" : {
+      "output" : "files\/plugins\/bootstrap\/4.0.0_beta\/css\/bootstrap-grid.min.out.css"
+    },
+    "files\/fonts\/font-awesome\/4.7.0\/scss\/font-awesome.scss" : {
+      "imports" : [
+        "files\/fonts\/font-awesome\/4.7.0\/scss\/_variables.scss",
+        "files\/fonts\/font-awesome\/4.7.0\/scss\/_mixins.scss",
+        "files\/fonts\/font-awesome\/4.7.0\/scss\/_path.scss",
+        "files\/fonts\/font-awesome\/4.7.0\/scss\/_core.scss",
+        "files\/fonts\/font-awesome\/4.7.0\/scss\/_larger.scss",
+        "files\/fonts\/font-awesome\/4.7.0\/scss\/_fixed-width.scss",
+        "files\/fonts\/font-awesome\/4.7.0\/scss\/_list.scss",
+        "files\/fonts\/font-awesome\/4.7.0\/scss\/_bordered-pulled.scss",
+        "files\/fonts\/font-awesome\/4.7.0\/scss\/_animated.scss",
+        "files\/fonts\/font-awesome\/4.7.0\/scss\/_rotated-flipped.scss",
+        "files\/fonts\/font-awesome\/4.7.0\/scss\/_stacked.scss",
+        "files\/fonts\/font-awesome\/4.7.0\/scss\/_icons.scss",
+        "files\/fonts\/font-awesome\/4.7.0\/scss\/_screen-reader.scss"
+      ],
+      "output" : "files\/fonts\/font-awesome\/4.7.0\/scss\/font-awesome.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/fonts\/font-awesome\/4.7.0\/less\/mixins.less" : {
+      "output" : "files\/fonts\/font-awesome\/4.7.0\/less\/mixins.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/fonts\/font-awesome\/4.7.0\/css\/font-awesome.min.css" : {
+      "output" : "files\/fonts\/font-awesome\/4.7.0\/css\/font-awesome.min.out.css"
+    },
+    "files\/fonts\/font-awesome\/4.7.0\/scss\/_stacked.scss" : {
+      "output" : "files\/fonts\/font-awesome\/4.7.0\/scss\/_stacked.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/fonts\/icomoon\/demo-files\/demo.js" : {
+      "output" : "files\/fonts\/icomoon\/demo-files\/demo.out.js"
+    },
+    "files\/plugins\/popper\/esm\/popper-utils.js" : {
+      "output" : "files\/plugins\/popper\/esm\/popper-utils.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/js\/respond_IE6-8.js" : {
+      "output" : "files\/js\/respond_IE6-8.out.js"
+    },
+    "files\/fonts\/font-awesome\/4.7.0\/scss\/_rotated-flipped.scss" : {
+      "output" : "files\/fonts\/font-awesome\/4.7.0\/scss\/_rotated-flipped.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/fonts\/icomoon\/style.css" : {
+      "output" : "files\/fonts\/icomoon\/style.out.css"
+    },
+    "files\/plugins\/popper\/popper.js" : {
+      "output" : "files\/plugins\/popper\/popper.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/plugins\/popper\/umd\/popper.js" : {
+      "output" : "files\/plugins\/popper\/umd\/popper.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/fonts\/icomoon\/demo-files\/demo.css" : {
+      "output" : "files\/fonts\/icomoon\/demo-files\/demo.out.css"
+    },
+    "files\/css\/scss\/includes\/_spacing.scss" : {
+      "output" : "files\/css\/scss\/includes\/_spacing.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/fonts\/font-awesome\/4.7.0\/less\/list.less" : {
+      "output" : "files\/fonts\/font-awesome\/4.7.0\/less\/list.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/css\/scss\/includes\/_responsive.scss" : {
+      "output" : "files\/css\/scss\/includes\/_responsive.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/plugins\/popper\/esm\/popper-utils.min.js" : {
+      "output" : "files\/plugins\/popper\/esm\/popper-utils.min.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/fonts\/font-awesome\/4.7.0\/scss\/_mixins.scss" : {
+      "output" : "files\/fonts\/font-awesome\/4.7.0\/scss\/_mixins.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/plugins\/bootstrap\/4.0.0_beta\/css\/bootstrap.css" : {
+      "output" : "files\/plugins\/bootstrap\/4.0.0_beta\/css\/bootstrap.out.css"
+    },
+    "files\/fonts\/font-awesome\/4.7.0\/scss\/_core.scss" : {
+      "output" : "files\/fonts\/font-awesome\/4.7.0\/scss\/_core.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/css\/scss\/base.scss" : {
+      "isUserOutput" : true,
+      "output" : "files\/css\/base.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      },
+      "imports" : [
+        "files\/css\/scss\/includes\/_variables.scss",
+        "files\/css\/scss\/includes\/_spacing.scss",
+        "files\/css\/scss\/includes\/_style.scss",
+        "files\/css\/scss\/includes\/_main_menu.scss",
+        "files\/css\/scss\/includes\/_print.scss",
+        "files\/css\/scss\/includes\/_responsive.scss"
+      ]
+    },
+    "files\/plugins\/popper\/popper-utils.js" : {
+      "output" : "files\/plugins\/popper\/popper-utils.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/plugins\/popper\/umd\/popper-utils.min.js" : {
+      "output" : "files\/plugins\/popper\/umd\/popper-utils.min.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/fonts\/font-awesome\/4.7.0\/scss\/_list.scss" : {
+      "output" : "files\/fonts\/font-awesome\/4.7.0\/scss\/_list.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/js\/jquery-migrate-3.0.0.min.js" : {
+      "output" : "files\/js\/jquery-migrate-3.0.0.min.out.js",
+      "profiles" : {
+        "uglify" : "00000000-0000-0000-0000-000000000000",
+        "jshint" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/fonts\/font-awesome\/4.7.0\/scss\/_larger.scss" : {
+      "output" : "files\/fonts\/font-awesome\/4.7.0\/scss\/_larger.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/fonts\/font-awesome\/4.7.0\/scss\/_bordered-pulled.scss" : {
+      "output" : "files\/fonts\/font-awesome\/4.7.0\/scss\/_bordered-pulled.css",
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/plugins\/bootstrap\/4.0.0_beta\/css\/bootstrap-grid.css" : {
+      "output" : "files\/plugins\/bootstrap\/4.0.0_beta\/css\/bootstrap-grid.out.css"
+    },
+    "files\/js\/settings.js" : {
+      "output" : "files\/js\/settings.out.js"
+    },
+    "files\/fonts\/font-awesome\/4.7.0\/less\/rotated-flipped.less" : {
+      "output" : "files\/fonts\/font-awesome\/4.7.0\/less\/rotated-flipped.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    },
+    "files\/fonts\/font-awesome\/4.7.0\/less\/font-awesome.less" : {
+      "imports" : [
+        "files\/fonts\/font-awesome\/4.7.0\/less\/variables.less",
+        "files\/fonts\/font-awesome\/4.7.0\/less\/mixins.less",
+        "files\/fonts\/font-awesome\/4.7.0\/less\/path.less",
+        "files\/fonts\/font-awesome\/4.7.0\/less\/core.less",
+        "files\/fonts\/font-awesome\/4.7.0\/less\/larger.less",
+        "files\/fonts\/font-awesome\/4.7.0\/less\/fixed-width.less",
+        "files\/fonts\/font-awesome\/4.7.0\/less\/list.less",
+        "files\/fonts\/font-awesome\/4.7.0\/less\/bordered-pulled.less",
+        "files\/fonts\/font-awesome\/4.7.0\/less\/animated.less",
+        "files\/fonts\/font-awesome\/4.7.0\/less\/rotated-flipped.less",
+        "files\/fonts\/font-awesome\/4.7.0\/less\/stacked.less",
+        "files\/fonts\/font-awesome\/4.7.0\/less\/icons.less",
+        "files\/fonts\/font-awesome\/4.7.0\/less\/screen-reader.less"
+      ],
+      "output" : "files\/fonts\/font-awesome\/4.7.0\/less\/font-awesome.css",
+      "profiles" : {
+        "less" : "00000000-0000-0000-0000-000000000000"
+      }
+    }
+  },
+  "flows" : {
+    "stylus" : {
+      "stylus" : "00000000-0000-0000-0000-000000000000",
+      "output" : "*.css"
+    },
+    "sass" : {
+      "sass" : "00000000-0000-0000-0000-000000000000",
+      "output" : "*.css"
+    },
+    "coffee" : {
+      "coffee" : "00000000-0000-0000-0000-000000000000",
+      "jshint" : "00000000-0000-0000-0000-000000000000",
+      "output" : "*.js",
+      "uglify" : "00000000-0000-0000-0000-000000000000"
+    },
+    "jinja" : {
+      "jinja" : "00000000-0000-0000-0000-000000000000",
+      "output" : "*"
+    },
+    "less" : {
+      "less" : "00000000-0000-0000-0000-000000000000",
+      "output" : "*.css"
+    },
+    "css" : {
+      "output" : "*.out.css"
+    },
+    "js" : {
+      "jshint" : "00000000-0000-0000-0000-000000000000",
+      "uglify" : "00000000-0000-0000-0000-000000000000",
+      "output" : "*.out.js"
+    }
+  },
+  "profiles" : {
+    "stylus" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "mediaquery" : false,
+        "name" : "Default Stylus Profile",
+        "comments" : false,
+        "format" : 1
+      }
+    },
+    "coffee" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "name" : "Default CoffeeScript Profile",
+        "bare" : false
+      }
+    },
+    "sass" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "name" : "Default Sass Profile",
+        "style" : "compressed",
+        "debug" : 0
+      }
+    },
+    "jshint" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "name" : "Default JSHint Profile",
+        "options" : [
+          "undef",
+          "unused",
+          "bitwise",
+          "curly",
+          "eqeqeq",
+          "latedef",
+          "newcap",
+          "noarg",
+          "nonew",
+          "trailing",
+          "browser",
+          "jquery"
+        ],
+        "globals" : ""
+      }
+    },
+    "less" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "imports" : false,
+        "mediaquery" : false,
+        "name" : "Default Less Profile",
+        "comments" : false,
+        "format" : 1
+      }
+    },
+    "jinja" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "name" : "Default Jinja Profile",
+        "autoescape" : false
+      }
+    },
+    "uglify" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "name" : "Default UglifyJS Profile",
+        "options" : [
+          "--mangle",
+          "--compress",
+          "beautify"
+        ]
+      }
+    }
+  },
+  "version" : 10100
+}

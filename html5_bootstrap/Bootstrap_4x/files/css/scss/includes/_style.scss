@@ -1,0 +1,105 @@
+/****************
+Base styles
+*****************/
+
+*{-webkit-user-select: text!important;}
+html { -webkit-text-size-adjust: 100%;}
+
+body
+{
+	/* Better Font Rendering */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	
+	font-family: 	$body_font;
+	font-size: 		$body_font_size;
+	color: 			$body_color;
+	background: 	$body_backgound_color;
+	font-weight: 	$body_font_weight;
+	overflow-x: 	hidden;
+}
+
+::-moz-selection
+{
+	background: $selection_backgound_color;
+	color: $selection_color;
+	text-shadow: none;
+}
+
+::selection
+{
+	background: $selection_backgound_color;
+	color: $selection_color;
+	text-shadow: none;
+}
+
+/* Remove the gap between elemets*/
+audio,canvas,img,video {vertical-align: middle;}
+
+a {
+	outline: 0 !important;
+	color: $a_color;
+	text-decoration: none !important;
+}
+a:visited {
+	color: $a_color;
+}
+a:hover {
+	color: $a_hover_color;
+}
+
+p{
+	line-height:$p_line_height;
+}
+
+h1 {
+	font-size: $h1_font_size_desktop;
+}
+
+h2 {
+	font-size: $h2_font_size_desktop;
+}
+
+h3 {
+	font-size: $h3_font_size_desktop;
+}
+
+h4 {
+	font-size: $h4_font_size_desktop;
+}
+
+h5 {
+	font-size: $h5_font_size_desktop;
+}
+
+h6 {
+	font-size: $h6_font_size_desktop;
+}
+
+.fontstyle_1 {font-family: $fontstyles_1 !important;}
+.fontstyle_2 {font-family: $fontstyles_2 !important;}
+.fontstyle_3 {font-family: $fontstyles_3 !important;}
+
+.btn {
+	padding: 10px 18px;
+	@include border-radius(5px);
+	outline: 0 !important;
+}
+
+.scrollToTop{
+	text-decoration: none;
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	bottom: 25px;
+	right: 20px;
+	z-index: 10;
+	@include border-radius(50%);
+	background: nth($colors-list, 4);
+	color:nth($colors-list, 2);
+	@include box-shadow(0px 0px 10px #000);
+	font-size: 35px;
+	padding-left: 8px;
+	padding-top: 2px;
+	display: none;
+}

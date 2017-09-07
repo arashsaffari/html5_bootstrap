@@ -1,0 +1,14 @@
+// Colors
+
+@each $current-color in $colors-list {
+	$i: index($colors-list, $current-color);
+
+	.color_#{$i},
+	.hovercolor_#{$i}:hover			{color:$current-color !important}
+
+	.bgcolor_#{$i},
+	.hoverbgcolor_#{$i}:hover		{background-color: $current-color !important}
+
+	.bordercolor_#{$i},
+	.hoverbordercolor_#{$i}:hover	{border-color:$current-color !important;}
+}
