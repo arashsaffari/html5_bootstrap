@@ -1,5 +1,5 @@
 {
-  "id" : "980D91EC-055F-4287-AEA0-018B86CF3154",
+  "id" : "00000000-0000-0000-0000-000000000000",
   "javascriptIndentation" : 4,
   "files" : {
     "base.scss" : {
@@ -12,61 +12,61 @@
         "includes\/_print.scss",
         "includes\/_responsive.scss"
       ],
-      "output" : "base.css",
       "profiles" : {
         "sass" : "00000000-0000-0000-0000-000000000000"
-      }
+      },
+      "output" : "base.css"
     },
     "includes\/_print.scss" : {
-      "output" : "includes\/_print.css",
       "profiles" : {
         "sass" : "00000000-0000-0000-0000-000000000000"
-      }
+      },
+      "output" : "includes\/_print.css"
     },
     "base.css" : {
       "output" : "base.out.css"
     },
     "includes\/_main_menu.scss" : {
-      "output" : "includes\/_main_menu.css",
       "profiles" : {
         "sass" : "00000000-0000-0000-0000-000000000000"
-      }
-    },
-    "includes\/_spacing.scss" : {
-      "output" : "includes\/_spacing.css",
-      "profiles" : {
-        "sass" : "00000000-0000-0000-0000-000000000000"
-      }
-    },
-    "includes\/_variables.scss" : {
-      "output" : "includes\/_variables.css",
-      "profiles" : {
-        "sass" : "00000000-0000-0000-0000-000000000000"
-      }
+      },
+      "output" : "includes\/_main_menu.css"
     },
     "includes\/_style.scss" : {
-      "output" : "includes\/_style.css",
       "profiles" : {
         "sass" : "00000000-0000-0000-0000-000000000000"
-      }
+      },
+      "output" : "includes\/_style.css"
+    },
+    "includes\/_variables.scss" : {
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      },
+      "output" : "includes\/_variables.css"
+    },
+    "includes\/_spacing.scss" : {
+      "profiles" : {
+        "sass" : "00000000-0000-0000-0000-000000000000"
+      },
+      "output" : "includes\/_spacing.css"
     },
     "includes\/_color.scss" : {
-      "output" : "includes\/_color.css",
       "profiles" : {
         "sass" : "00000000-0000-0000-0000-000000000000"
-      }
+      },
+      "output" : "includes\/_color.css"
     },
     "includes\/_responsive.scss" : {
-      "output" : "includes\/_responsive.css",
       "profiles" : {
         "sass" : "00000000-0000-0000-0000-000000000000"
-      }
+      },
+      "output" : "includes\/_responsive.css"
     }
   },
   "flows" : {
     "stylus" : {
-      "output" : "*.css",
-      "stylus" : "00000000-0000-0000-0000-000000000000"
+      "stylus" : "00000000-0000-0000-0000-000000000000",
+      "output" : "*.css"
     },
     "sass" : {
       "sass" : "00000000-0000-0000-0000-000000000000",
@@ -90,9 +90,9 @@
       "output" : "*.out.css"
     },
     "js" : {
-      "output" : "*.out.js",
+      "jshint" : "00000000-0000-0000-0000-000000000000",
       "uglify" : "00000000-0000-0000-0000-000000000000",
-      "jshint" : "00000000-0000-0000-0000-000000000000"
+      "output" : "*.out.js"
     }
   },
   "profiles" : {
@@ -102,6 +102,12 @@
         "name" : "Default Stylus Profile",
         "comments" : false,
         "format" : 1
+      }
+    },
+    "coffee" : {
+      "00000000-0000-0000-0000-000000000000" : {
+        "name" : "Default CoffeeScript Profile",
+        "bare" : false
       }
     },
     "sass" : {
@@ -129,12 +135,6 @@
           "jquery"
         ],
         "globals" : ""
-      }
-    },
-    "coffee" : {
-      "00000000-0000-0000-0000-000000000000" : {
-        "name" : "Default CoffeeScript Profile",
-        "bare" : false
       }
     },
     "less" : {

@@ -52,33 +52,51 @@ p{
 	line-height:$p_line_height;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+	font-family: $fontstyles_2;
+	// line-height: 1;
+}
+
+h1,.h1 {
 	font-size: $h1_font_size_desktop;
 }
 
-h2 {
+h2,.h2 {
 	font-size: $h2_font_size_desktop;
 }
 
-h3 {
+h3,.h3 {
 	font-size: $h3_font_size_desktop;
 }
 
-h4 {
+h4,.h4 {
 	font-size: $h4_font_size_desktop;
 }
 
-h5 {
+h5,.h5 {
 	font-size: $h5_font_size_desktop;
 }
 
-h6 {
+h6,.h6 {
 	font-size: $h6_font_size_desktop;
 }
 
-.fontstyle_1 {font-family: $fontstyles_1 !important;}
-.fontstyle_2 {font-family: $fontstyles_2 !important;}
-.fontstyle_3 {font-family: $fontstyles_3 !important;}
+.fontstyle_1 	{font-family: $fontstyles_1 !important;font-weight: 300}
+.fontstyle_1-1 	{font-weight: 100;}
+.fontstyle_1-2 	{font-weight: 300;}
+.fontstyle_1-3 	{font-weight: 400;}
+.fontstyle_1-4 	{font-weight: 400;font-style: italic;}
+.fontstyle_1-5 	{font-weight: 500;}
+.fontstyle_1-6 	{font-weight: 700;}
+.fontstyle_1-7 	{font-weight: 700;font-style: italic;}
+
+.fontstyle_2 	{font-family: $fontstyles_2 !important;font-weight: 700}
+.fontstyle_2-1	{font-weight: 400;}
+
+.fontstyle_3	{font-family: $fontstyles_3 !important;width: 100}
+.fontstyle_3-1	{font-weight: 400;}
+.fontstyle_3-2	{font-weight: 700;}
 
 .btn {
 	padding: 10px 18px;
