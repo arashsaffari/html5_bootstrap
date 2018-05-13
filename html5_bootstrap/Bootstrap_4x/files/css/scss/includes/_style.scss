@@ -54,7 +54,7 @@ p{
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6{
-	font-family: $fontstyles_2;
+	font-family: $fontstyle_2;
 	// line-height: 1;
 }
 
@@ -82,42 +82,16 @@ h6,.h6 {
 	font-size: $h6_font_size_desktop;
 }
 
-.fontstyle_1 	{font-family: $fontstyles_1 !important;font-weight: 300}
-.fontstyle_1-1 	{font-weight: 100;}
-.fontstyle_1-2 	{font-weight: 300;}
-.fontstyle_1-3 	{font-weight: 400;}
-.fontstyle_1-4 	{font-weight: 400;font-style: italic;}
-.fontstyle_1-5 	{font-weight: 500;}
-.fontstyle_1-6 	{font-weight: 700;}
-.fontstyle_1-7 	{font-weight: 700;font-style: italic;}
+.fontstyle_1 	{font-family: $fontstyle_1 !important; font-weight: 300}
+.fontstyle_2 	{font-family: $fontstyle_2 !important; font-weight: 700}
+.fontstyle_3	{font-family: $fontstyle_3 !important; width: 100}
 
-.fontstyle_2 	{font-family: $fontstyles_2 !important;font-weight: 700}
-.fontstyle_2-1	{font-weight: 400;}
-
-.fontstyle_3	{font-family: $fontstyles_3 !important;width: 100}
-.fontstyle_3-1	{font-weight: 400;}
-.fontstyle_3-2	{font-weight: 700;}
-
-.btn {
-	padding: 10px 18px;
-	@include border-radius(5px);
-	outline: 0 !important;
-}
-
-.scrollToTop{
-	text-decoration: none;
-	position: fixed;
-	width: 50px;
-	height: 50px;
-	bottom: 25px;
-	right: 20px;
-	z-index: 10;
-	@include border-radius(50%);
-	background: nth($colors-list, 4);
-	color:nth($colors-list, 2);
-	@include box-shadow(0px 0px 10px #000);
-	font-size: 35px;
-	padding-left: 8px;
-	padding-top: 2px;
-	display: none;
-}
+.font_w1 {font-weight: 100;}
+.font_w2 {font-weight: 200;}
+.font_w3 {font-weight: 300;}
+.font_w4 {font-weight: 400;}
+.font_w5 {font-weight: 500;}
+.font_w6 {font-weight: 600;}
+.font_w7 {font-weight: 700;}
+.font_w8 {font-weight: 800;}
+.font_w9 {font-weight: 900;}
