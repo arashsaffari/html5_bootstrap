@@ -34,6 +34,41 @@
 		"oAP": "\/Bootstrap_4x\/apple-touch-icon-precomposed.psd",
 		"oF": 0
 		},
+	"\/Bootstrap_4x\/Artboards\/psd\/bootstrap-v4-grid-artboards.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/Bootstrap_4x\/Artboards\/psd\/bootstrap-v4-grid-artboards.psd",
+		"oF": 0
+		},
+	"\/Bootstrap_4x\/Artboards\/psd\/bootstrap-v4-grid-xl-compatible.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/Bootstrap_4x\/Artboards\/psd\/bootstrap-v4-grid-xl-compatible.psd",
+		"oF": 0
+		},
+	"\/Bootstrap_4x\/Artboards\/Sketch\/bootstrap-v4-grid-artboards.sketch": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/Bootstrap_4x\/Artboards\/Sketch\/bootstrap-v4-grid-artboards.sketch",
+		"oF": 0
+		},
+	"\/Bootstrap_4x\/Artboards\/Xd\/bootstrap ui.xd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/Bootstrap_4x\/Artboards\/Xd\/bootstrap ui.xd",
+		"oF": 0
+		},
+	"\/Bootstrap_4x\/Artboards\/Xd\/bootstrap-v4-grid-artboards.xd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/Bootstrap_4x\/Artboards\/Xd\/bootstrap-v4-grid-artboards.xd",
+		"oF": 0
+		},
 	"\/Bootstrap_4x\/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
@@ -43990,34 +44025,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/Bootstrap_4x\/index.html",
-		"oF": 0
-		},
-	"\/Bootstrap_4x\/PSD_bootstrap\/psd\/bootstrap-v4-grid-artboards.psd": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/Bootstrap_4x\/PSD_bootstrap\/psd\/bootstrap-v4-grid-artboards.psd",
-		"oF": 0
-		},
-	"\/Bootstrap_4x\/PSD_bootstrap\/psd\/bootstrap-v4-grid-xl-compatible.psd": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/Bootstrap_4x\/PSD_bootstrap\/psd\/bootstrap-v4-grid-xl-compatible.psd",
-		"oF": 0
-		},
-	"\/Bootstrap_4x\/PSD_bootstrap\/Xd\/bootstrap ui.xd": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/Bootstrap_4x\/PSD_bootstrap\/Xd\/bootstrap ui.xd",
-		"oF": 0
-		},
-	"\/Bootstrap_4x\/PSD_bootstrap\/Xd\/bootstrap-v4-grid-artboards.xd": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/Bootstrap_4x\/PSD_bootstrap\/Xd\/bootstrap-v4-grid-artboards.xd",
 		"oF": 0
 		},
 	"\/composer.json": {
