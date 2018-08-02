@@ -27157,6 +27157,133 @@
 		"oAP": "\/fonts\/font-awesome\/5.2.0\/fontawesome-web\/webfonts\/fa-solid-900.woff2",
 		"oF": 1
 		},
+	"\/fonts\/fontello\/config.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/fonts\/fontello\/config-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/fonts\/fontello\/css\/animation.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/fontello\/css\/animation-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/fonts\/fontello\/css\/fontello-codes.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/fontello\/css\/fontello-codes-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/fonts\/fontello\/css\/fontello-embedded.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/fontello\/css\/fontello-embedded-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/fonts\/fontello\/css\/fontello-ie7-codes.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/fontello\/css\/fontello-ie7-codes-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/fonts\/fontello\/css\/fontello-ie7.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/fontello\/css\/fontello-ie7-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/fonts\/fontello\/css\/fontello.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/fontello\/css\/fontello-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/fonts\/fontello\/demo.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/fontello\/demo.html",
+		"oF": 0
+		},
+	"\/fonts\/fontello\/font\/fontello.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/fontello\/font\/fontello.eot",
+		"oF": 0
+		},
+	"\/fonts\/fontello\/font\/fontello.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/fontello\/font\/fontello.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/fontello\/font\/fontello.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/fontello\/font\/fontello.ttf",
+		"oF": 0
+		},
+	"\/fonts\/fontello\/font\/fontello.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/fontello\/font\/fontello.woff",
+		"oF": 0
+		},
+	"\/fonts\/fontello\/font\/fontello.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/fontello\/font\/fontello.woff2",
+		"oF": 0
+		},
+	"\/fonts\/fontello\/LICENSE.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/fontello\/LICENSE.txt",
+		"oF": 0
+		},
+	"\/fonts\/fontello\/README.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/fontello\/README.txt",
+		"oF": 0
+		},
 	"\/img\/Logo.png": {
 		"ft": 32768,
 		"iS": 2933,
