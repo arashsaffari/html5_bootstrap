@@ -84,6 +84,7 @@ $body_font:			 		$fontstyle-1;
 $body_font_size:			16px;
 $body_font_weight:			normal;
 
+// font-size-{bp}-{size}
 $fontsizes: (
 	xs: 80%,
 	s: 90%,
@@ -92,12 +93,14 @@ $fontsizes: (
 	xl: 120%
 ) !default;
 
+// line-height-{bp}-{size}
 $line-heighters: (
 	0: 0,
 	1: 1,
-	xxs: 0.5,
-	xs: 0.9,
-	s: 1.2,
+	xxxs: 0.5,
+	xxs: 0.9,
+	xs: 1.2,
+	s: 1.4,
 	m: 1.6,
 	l: 1.7,
 	xl: 1.8,

@@ -36,7 +36,7 @@
 		"oA": 0,
 		"oAP": "/css/scss/base.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"/css/scss/includes/_color.scss": {
@@ -48,6 +48,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/scss/includes/_color.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/css/scss/includes/_fontsize.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/scss/includes/_fontsize.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/css/scss/includes/_line_height.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/scss/includes/_line_height.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
