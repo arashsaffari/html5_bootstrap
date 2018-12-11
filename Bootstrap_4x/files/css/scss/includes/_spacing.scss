@@ -1,5 +1,4 @@
 
-
 @mixin my_spaces($key, $value, $breakingpoint:'') {
 	
 	$bp: '';
@@ -24,32 +23,41 @@
 	.my#{$bp}-#{$key}  {margin-top: $value !important;margin-bottom: $value !important;}
 }
 
-
-
-
 @each $space in $spacers {
-
 	$key: nth($space, 1);
 	$value: nth($space, 2);
 
 	@include my_spaces($key, $value, '');
-
+}
 	
-	@include breakpoint(sm) {
+@include breakpoint(sm) {
+	@each $space in $spacers {
+		$key: nth($space, 1);
+		$value: nth($space, 2);
 		@include my_spaces($key, $value, 'sm');
 	}
-
-	@include breakpoint(md) {
-		@include my_spaces($key, $value, 'md');
-	}
-
-	@include breakpoint(lg) {
-		@include my_spaces($key, $value, 'lg');
-	}
-
-	@include breakpoint(xl) {
-		@include my_spaces($key, $value, 'xl');
-	}
-
 }
 
+@include breakpoint(md) {
+	@each $space in $spacers {
+		$key: nth($space, 1);
+		$value: nth($space, 2);
+		@include my_spaces($key, $value, 'md');
+	}
+}
+
+@include breakpoint(lg) {
+	@each $space in $spacers {
+		$key: nth($space, 1);
+		$value: nth($space, 2);
+		@include my_spaces($key, $value, 'lg');
+	}
+}
+
+@include breakpoint(xl) {
+	@each $space in $spacers {
+		$key: nth($space, 1);
+		$value: nth($space, 2);
+		@include my_spaces($key, $value, 'xl');
+	}
+}
