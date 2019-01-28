@@ -1,0 +1,53 @@
+{% macro main_bildungsangebote(pages) %}
+    {% set counter01 = 0 %}
+    {% set addcounter = 0 %}
+
+    {# <h5 class="mb-0"><a class="color_8 font_w3 px-20 py-10 p-sm-20 pt-sm-30 d-block animated flipInX" style="{% set counter01 = counter01 + addcounter %}{{ _self.animation_delay(counter01) }}" href="{{pages.url}}">{{ pages.title }}</a></h5> #}
+    
+    {% for p in pages.children if p != page %}
+
+        <div class="bgcolor_7 pt-sm-0 pb-sm-0">
+            {% set counter01 = counter01 + 0.03 %}
+            <h3 class="m-0 animated fadeIn h7 bgcolor_2 border-top border-bottom" style="{% set counter01 = counter01 + addcounter %}{{ _self.animation_delay(counter01) }}"><a class="color_8 font_w6 d-block p-5 px-20 p-sm-10 px-sm-30" href="{{p.url}}">{{ p.title }}</a></h3>
+            {% if p.children.visible.count > 0 %}
+                <ul class="list-unstyled pb-20 pl-0 mb-0 pt-0">
+                    {% for subpage in p.children.visible %}
+                        {% set counter01 = counter01 + 0.03 %}
+                        {% set current_page = (subpage.active or subpage.activeChild) ? 'bgcolor_2 color_4 font_w6' : '' %}
+                        <li class="animated fadeIn small" style="{% set counter01 = counter01 + addcounter %}{{ _self.animation_delay(counter01) }}"><a class="color_1 hoverbgcolor_11 font_w3 d-block py-2 px-20 py-md-2 px-sm-30 {{ current_page }}" href="{{ subpage.url }}">{% if subpage.header.icon %}<i class="fa fa-{{ subpage.header.icon }}"></i>{% endif %}{{ subpage.menu }}</a></li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+            {% endif %}
+        </div>
+    {% endfor %}
+    
+    {# {% for p in page.children.visible %}
+        {% set current_page = (p.active or p.activeChild) ? 'bgcolor_2 color_3' : '' %}
+
+        {% if p.children.visible.count > 0 %}
+            <li class="{{ current_page }}">
+                <a class="{{ current_page }}" href="{{ p.url }}">{% if p.header.icon %}<i class="fa fa-{{ p.header.icon }}"></i>{% endif %}{{ p.menu }}</a>
+                <ul class="dl-submenu">
+                    {{ _self.loop(p) }}
+                </ul>
+            </li>
+        {% else %}
+           <li class="{{ current_page }} p-5 px-sm-20 pr-sm-50"><a class="color_2 {{ current_page }}" href="{{ p.url }}">{% if p.header.icon %}<i class="fa fa-{{ p.header.icon }}"></i>{% endif %}{{ p.menu }}</a></li>
+        {% endif %}
+    {% endfor %} #}
+{% endmacro %}
+
+{% macro animation_delay(counter) %}
+    -webkit-animation-delay: {{counter}}s;animation-delay: {{counter}}s;
+    -webkit-animation-duration: 1.7s;animation-duration: 1.7s;
+{% endmacro %}
+
+{% set counter = 0 %}
+{% set addcounter = 0.03 %}
+
+<div class="d-none d-md-flex align-items-md-stretch">
+    <div class="c-2 flex-grow-1">
+       {{ _self.main_bildungsangebote(page.find('/bildungsangebote')) }}
+    </div>
+</div>

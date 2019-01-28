@@ -1,0 +1,30 @@
+extends@: default
+
+form:
+  fields:
+    tabs:
+
+      fields:
+        blog:
+          type: tab
+          title: Termine
+
+          fields:
+
+            header.pflege:
+              name: pflege
+              type: list
+              style: vertical
+              label: Pflege
+              fields:
+                .text:
+                  type: Datetime
+                  label: Date
+                .kurs:
+                  type: select
+                  label: Kurs
+                  classes: fancy
+                  options:
+                    'altenpflege': 'Altenpflege'
+                    'betreuungsassistenten': 'Betreuungsassistenten'
+                    'lg1_lg2': 'LG1 + LG2 Behandlungspflege'

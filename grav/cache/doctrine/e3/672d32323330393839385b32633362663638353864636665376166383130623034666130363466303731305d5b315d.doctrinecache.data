@@ -1,0 +1,325 @@
+1549314821
+a:2:{s:7:"content";s:17063:"<div class="container my-100">  
+    <div class="row">
+        <div class="col-lg-12">
+            <h1>Kontakt</h1>
+            <hr></div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6">
+            
+
+
+                                    
+
+
+
+
+<form name="kontakt"
+      action="/html5_bootstrap/grav/de/kontakt"
+      method="POST"
+      id="kontakt"            class=" "
+                  >
+
+  
+            
+
+    <div class="form-field   ">
+                                    <div class="form-label ">
+                    <label class="inline" for="anrede"  >
+                                                                                                        Anrede
+                                                    
+                        <span class="required">*</span>
+                                        </label>
+                </div>
+                        <div class="form-data "
+                                data-grav-field="text"
+                data-grav-disabled="true"
+                data-grav-default="null"
+                            >
+                                                            <div class="form-input-wrapper  ">
+                                                        <input
+                                                                name="data[anrede]"
+                                value=""
+                                                                    type="text"
+                                                    class=" "
+                                    id="anrede"                                                                                                                                                                                                                                                             autocomplete="on"                                                                                                            
+                                                                        required="required"                                                                                                                                            
+                            />
+                                                                                    </div>
+                    
+                                
+            </div>
+            </div>
+          
+
+    <div class="form-field   ">
+                                    <div class="form-label ">
+                    <label class="inline" for="firmenname"  >
+                                                                                                        Firmenname
+                                                    
+                        
+                                        </label>
+                </div>
+                        <div class="form-data "
+                                data-grav-field="text"
+                data-grav-disabled="true"
+                data-grav-default="null"
+                            >
+                                                            <div class="form-input-wrapper  ">
+                                                        <input
+                                                                name="data[firmenname]"
+                                value=""
+                                                                    type="text"
+                                                    class=" "
+                                    id="firmenname"                                                                                                                                                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                    
+                            />
+                                                                                    </div>
+                    
+                                
+            </div>
+            </div>
+          
+
+    <div class="form-field   ">
+                                    <div class="form-label ">
+                    <label class="inline" for="name"  >
+                                                                                                        Name
+                                                    
+                        <span class="required">*</span>
+                                        </label>
+                </div>
+                        <div class="form-data "
+                                data-grav-field="text"
+                data-grav-disabled="true"
+                data-grav-default="null"
+                            >
+                                                            <div class="form-input-wrapper  ">
+                                                        <input
+                                                                name="data[name]"
+                                value=""
+                                                                    type="text"
+                                                    class=" "
+                                    id="name"                                                                                                                                                                                                                                                                                                                                                                         
+                                                                        required="required"                                                                                                                                            
+                            />
+                                                                                    </div>
+                    
+                                
+            </div>
+            </div>
+          
+
+    <div class="form-field   ">
+                                    <div class="form-label ">
+                    <label class="inline" for="email"  >
+                                                                                                        E-Mail
+                                                    
+                        <span class="required">*</span>
+                                        </label>
+                </div>
+                        <div class="form-data "
+                                data-grav-field="email"
+                data-grav-disabled="true"
+                data-grav-default="null"
+                            >
+                                                            <div class="form-input-wrapper  ">
+                                                        <input
+                                                                name="data[email]"
+                                value=""
+                                                                    type="email"
+                                            class=" "
+                                    id="email"                                                                                                                                                                                                                                                                                                                                                                         
+                                                                        required="required"                                                                                                                                            
+                            />
+                                                                                </div>
+                                                    
+            </div>
+            </div>
+          
+
+    <div class="form-field   ">
+                                    <div class="form-label ">
+                    <label class="inline" for="telefon"  >
+                                                                                                        Telefon
+                                                    
+                        
+                                        </label>
+                </div>
+                        <div class="form-data "
+                                data-grav-field="text"
+                data-grav-disabled="true"
+                data-grav-default="null"
+                            >
+                                                            <div class="form-input-wrapper  ">
+                                                        <input
+                                                                name="data[telefon]"
+                                value=""
+                                                                    type="text"
+                                                    class=" "
+                                    id="telefon"                                                                                                                                                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                    
+                            />
+                                                                                    </div>
+                    
+                                
+            </div>
+            </div>
+          
+
+    <div class="form-field   ">
+                                    <div class="form-label ">
+                    <label class="inline" for="betreff"  >
+                                                                                                        Betreff
+                                                    
+                        <span class="required">*</span>
+                                        </label>
+                </div>
+                        <div class="form-data "
+                                data-grav-field="text"
+                data-grav-disabled="true"
+                data-grav-default="null"
+                            >
+                                                            <div class="form-input-wrapper  ">
+                                                        <input
+                                                                name="data[betreff]"
+                                value=""
+                                                                    type="text"
+                                                    class=" "
+                                    id="betreff"                                                                                                                                                                                                                                                                                                                                                                         
+                                                                        required="required"                                                                                                                                            
+                            />
+                                                                                    </div>
+                    
+                                
+            </div>
+            </div>
+          
+
+    <div class="form-field   ">
+                                    <div class="form-label ">
+                    <label class="inline"  >
+                                                                                                        Nachricht
+                                                    
+                        <span class="required">*</span>
+                                        </label>
+                </div>
+                        <div class="form-data "
+                                data-grav-field="textarea"
+                data-grav-disabled="true"
+                data-grav-default="null"
+                            >
+                                        <div class="form-textarea-wrapper  ">
+        <textarea
+                        name="data[nachricht]"
+                                        class=" "
+                                                                                                                                                required="required"                                                                                                                        ></textarea>
+    </div>
+                                
+            </div>
+            </div>
+          
+
+    <div class="form-field   ">
+                                    <div class="form-label ">
+                    <label class="inline"  >
+                                        </label>
+                </div>
+                        <div class="form-data "
+                                data-grav-field="checkbox"
+                data-grav-disabled="true"
+                data-grav-default="null"
+                            >
+                                            <div class="form-input-wrapper  ">
+        <label class="" for="ja_ich_stimme_zu-">
+        <input
+                        name="data[ja_ich_stimme_zu]"
+            value=""
+            type="checkbox"
+            
+                                        id="ja_ich_stimme_zu-"
+                                                                                                required="required"                        />
+            <i class="form-icon"></i>
+            Ja, ich stimme den Datenschutzbedingungen zu. <span class="required">*</span>
+        </label>
+    </div>
+                                
+            </div>
+            </div>
+          
+
+    <div class="form-field   ">
+                                    <div class="form-label ">
+                    <label class="inline"  >
+                                                                                                        Captcha
+                                                    
+                        <span class="required">*</span>
+                                        </label>
+                </div>
+                        <div class="form-data "
+                                data-grav-field="captcha"
+                data-grav-disabled="true"
+                data-grav-default="null"
+                            >
+                                        <script>
+        var captchaOnloadCallback = function captchaOnloadCallback() {
+            grecaptcha.render('g-recaptcha', {
+                'sitekey': "6Le5vnUUAAAAAHzAy9rfm_wy63bXttVCLFOtD0Lu",
+                'callback': captchaValidatedCallback,
+                'expired-callback': captchaExpiredCallback
+            });
+        };
+
+        var captchaValidatedCallback = function captchaValidatedCallback() {
+
+        };
+
+        var captchaExpiredCallback = function captchaExpiredCallback() {
+            grecaptcha.reset();
+        };
+
+        $('form').submit(function(event) {
+            if ($(this).has("#g-recaptcha-response").length && $("#g-recaptcha-response").val() === '') {
+                event.preventDefault();
+                alert("Die Überprüfung des Captcha ist fehlgeschlagen.");
+            }
+        });
+    </script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=captchaOnloadCallback&render=explicit&hl=de"
+        async defer>
+    </script>
+    <div class="g-recaptcha" id="g-recaptcha"></div>
+                                
+            </div>
+            </div>
+  
+  <input type="hidden" name="__form-name__" value="kontakt" />
+  
+    <div class="buttons">
+  
+                            <button
+                                                class="button "
+                                
+                type="submit"
+
+                            >
+                Senden
+          </button>
+                                            <button
+                                                class="button "
+                                
+                type="reset"
+
+                            >
+                Reset
+          </button>
+                  
+    </div>
+  
+  <input type="hidden" name="__unique_form_id__" value="NQf76EMY0ICzhvG3K41d" />  <input type="hidden" name="form-nonce" value="741f7950ed2d354d6fad1c3600a3ed71" />
+</form>
+
+        </div>
+    </div>
+</div>";s:12:"content_meta";N;}

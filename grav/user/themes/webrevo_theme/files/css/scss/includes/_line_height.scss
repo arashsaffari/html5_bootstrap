@@ -1,0 +1,57 @@
+
+
+@mixin my_line_height($line_height_name, $line_height_value, $breakingpoint:'') {
+	
+	$bp: '';
+	@if $breakingpoint != '' {
+		$bp: '-#{$breakingpoint}';
+	}
+
+	.line-height#{$bp}-#{$line_height_name}   {
+		line-height: $line_height_value;
+	}
+
+}
+
+@each $line-height in $line-heighters {
+	$line_height_name:	nth($line-height, 1);
+	$line_height_value: nth($line-height, 2);
+
+	@include my_line_height($line_height_name, $line_height_value, '');
+}
+	
+@include breakpoint(sm) {
+	@each $line-height in $line-heighters {
+		$line_height_name:	nth($line-height, 1);
+		$line_height_value: nth($line-height, 2);
+
+		@include my_line_height($line_height_name, $line_height_value, 'sm');
+	}
+}
+
+@include breakpoint(md) {
+	@each $line-height in $line-heighters {
+		$line_height_name:	nth($line-height, 1);
+		$line_height_value: nth($line-height, 2);
+
+		@include my_line_height($line_height_name, $line_height_value, 'md');
+	}
+}
+
+@include breakpoint(lg) {
+	@each $line-height in $line-heighters {
+		$line_height_name:	nth($line-height, 1);
+		$line_height_value: nth($line-height, 2);
+
+		@include my_line_height($line_height_name, $line_height_value, 'lg');
+	}
+}
+
+@include breakpoint(xl) {
+	@each $line-height in $line-heighters {
+		$line_height_name:	nth($line-height, 1);
+		$line_height_value: nth($line-height, 2);
+
+		@include my_line_height($line_height_name, $line_height_value, 'xl');
+	}
+}

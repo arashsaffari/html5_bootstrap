@@ -1,0 +1,57 @@
+
+
+@mixin my_font_size($font_size_name, $font-size-value, $breakingpoint:'') {
+	
+	$bp: '';
+	@if $breakingpoint != '' {
+		$bp: '-#{$breakingpoint}';
+	}
+
+	.font-size#{$bp}-#{$font_size_name}   {
+		font-size: $font-size-value;
+	}
+
+}
+
+@each $fontsize in $fontsizes {
+	$font_size_name:	nth($fontsize, 1);
+	$font_size_value: 	nth($fontsize, 2);
+
+	@include my_font_size($font_size_name, $font_size_value, '');
+}
+	
+@include breakpoint(sm) {
+	@each $fontsize in $fontsizes {
+		$font_size_name:	nth($fontsize, 1);
+		$font_size_value: 	nth($fontsize, 2);
+	
+		@include my_font_size($font_size_name, $font_size_value, 'sm');
+	}
+}
+
+@include breakpoint(md) {
+	@each $fontsize in $fontsizes {
+		$font_size_name:	nth($fontsize, 1);
+		$font_size_value: 	nth($fontsize, 2);
+	
+		@include my_font_size($font_size_name, $font_size_value, 'md');
+	}
+}
+
+@include breakpoint(lg) {
+	@each $fontsize in $fontsizes {
+		$font_size_name:	nth($fontsize, 1);
+		$font_size_value: 	nth($fontsize, 2);
+	
+		@include my_font_size($font_size_name, $font_size_value, 'lg');
+	}
+}
+
+@include breakpoint(xl) {
+	@each $fontsize in $fontsizes {
+		$font_size_name:	nth($fontsize, 1);
+		$font_size_value: 	nth($fontsize, 2);
+	
+		@include my_font_size($font_size_name, $font_size_value, 'xl');
+	}
+}

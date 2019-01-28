@@ -1,0 +1,328 @@
+1549313218
+a:2:{s:7:"content";s:16610:"<div class="container my-100">  
+    <div class="row">
+        <div class="col-lg-12">
+            <h1>Kontakt</h1>
+            <hr></div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6">
+
+<form name="kontakt" action="/html5_bootstrap/grav/de/kontakt" method="POST" id="kontakt" class=" ">
+
+    <div class="form-field   ">
+                                    <div class="form-label ">
+                    <label class="inline" for="anrede">
+                                                                                                        Anrede
+
+                        <span class="required">*</span>
+                                        </label>
+                </div>
+                        <div class="form-data " data-grav-field="text" data-grav-disabled="true" data-grav-default="null">
+                                                            <div class="form-input-wrapper  ">
+                                                        <input name="data[anrede]" value="" type="text" class=" " id="anrede" autocomplete="on" required="required"></div>
+
+            </div>
+            </div>
+
+    <div class="form-field   ">
+                                    <div class="form-label ">
+                    <label class="inline" for="firmenname">
+                                                                                                        Firmenname
+
+                                        </label>
+                </div>
+                        <div class="form-data " data-grav-field="text" data-grav-disabled="true" data-grav-default="null">
+                                                            <div class="form-input-wrapper  ">
+                                                        <input name="data[firmenname]" value="" type="text" class=" " id="firmenname"></div>
+
+            </div>
+            </div>
+
+    <div class="form-field   ">
+                                    <div class="form-label ">
+                    <label class="inline">
+                                                                                                        Vor- und Nachname
+
+                        <span class="required">*</span>
+                                        </label>
+                </div>
+                        <div class="form-data " data-grav-field="text" data-grav-disabled="true" data-grav-default="null">
+                                                            <div class="form-input-wrapper  ">
+                                                        <input name="data[name]" value="" type="text" class=" " required="required"></div>
+
+            </div>
+            </div>
+</form>
+</div>
+</div></div>
+<pre><code>&lt;div class="form-field   "&gt;
+                                &lt;div class="form-label "&gt;
+                &lt;label class="inline"  &gt;
+                                                                                                    E-Mail
+
+                    &lt;span class="required"&gt;*&lt;/span&gt;
+                                    &lt;/label&gt;
+            &lt;/div&gt;
+                    &lt;div class="form-data "
+                            data-grav-field="email"
+            data-grav-disabled="true"
+            data-grav-default="null"
+                        &gt;
+                                                        &lt;div class="form-input-wrapper  "&gt;
+                                                    &lt;input
+                                                            name="data[email]"
+                            value=""
+                                                                type="email"
+                                        class=" "
+
+                                                                    required="required"                                                                                                                                            
+                        /&gt;
+                                                                            &lt;/div&gt;
+
+        &lt;/div&gt;
+        &lt;/div&gt;
+
+&lt;div class="form-field   "&gt;
+                                &lt;div class="form-label "&gt;
+                &lt;label class="inline"  &gt;
+                                                                                                    Telefon
+
+                                    &lt;/label&gt;
+            &lt;/div&gt;
+                    &lt;div class="form-data "
+                            data-grav-field="text"
+            data-grav-disabled="true"
+            data-grav-default="null"
+                        &gt;
+                                                        &lt;div class="form-input-wrapper  "&gt;
+                                                    &lt;input
+                                                            name="data[telefon]"
+                            value=""
+                                                                type="text"
+                                                class=" "
+
+                        /&gt;
+                                                                                &lt;/div&gt;
+
+        &lt;/div&gt;
+        &lt;/div&gt;
+
+&lt;div class="form-field   "&gt;
+                                &lt;div class="form-label "&gt;
+                &lt;label class="inline"  &gt;
+                                                                                                    Betreff
+
+                    &lt;span class="required"&gt;*&lt;/span&gt;
+                                    &lt;/label&gt;
+            &lt;/div&gt;
+                    &lt;div class="form-data "
+                            data-grav-field="text"
+            data-grav-disabled="true"
+            data-grav-default="null"
+                        &gt;
+                                                        &lt;div class="form-input-wrapper  "&gt;
+                                                    &lt;input
+                                                            name="data[betreff]"
+                            value=""
+                                                                type="text"
+                                                class=" "
+
+                                                                    required="required"                                                                                                                                            
+                        /&gt;
+                                                                                &lt;/div&gt;
+
+        &lt;/div&gt;
+        &lt;/div&gt;
+
+&lt;div class="form-field   "&gt;
+                                &lt;div class="form-label "&gt;
+                &lt;label class="inline"  &gt;
+                                                                                                    Nachricht
+
+                    &lt;span class="required"&gt;*&lt;/span&gt;
+                                    &lt;/label&gt;
+            &lt;/div&gt;
+                    &lt;div class="form-data "
+                            data-grav-field="textarea"
+            data-grav-disabled="true"
+            data-grav-default="null"
+                        &gt;
+                                    &lt;div class="form-textarea-wrapper  "&gt;
+    &lt;textarea
+                    name="data[nachricht]"
+                                    class=" "
+                                                                                                                                            required="required"                                                                                                                        &gt;&lt;/textarea&gt;
+&lt;/div&gt;
+
+        &lt;/div&gt;
+        &lt;/div&gt;
+
+&lt;div class="form-field   "&gt;
+                                &lt;div class="form-label "&gt;
+                &lt;label class="inline"  &gt;
+                                    &lt;/label&gt;
+            &lt;/div&gt;
+                    &lt;div class="form-data "
+                            data-grav-field="checkbox"
+            data-grav-disabled="true"
+            data-grav-default="null"
+                        &gt;
+                                        &lt;div class="form-input-wrapper  "&gt;
+    &lt;input
+                    name="data[ja_ich_stimme_zu]"
+        value=""
+        type="checkbox"
+
+                                    id="ja_ich_stimme_zu-"
+                                                                                            required="required"                        /&gt;
+    &lt;label style="display:inline;" class="inline" for="ja_ich_stimme_zu-"&gt;
+                        Ja, ich stimme den Datenschutzbedingungen zu.
+                    &lt;span class="required"&gt;*&lt;/span&gt;
+    &lt;/label&gt;
+&lt;/div&gt;
+
+        &lt;/div&gt;
+        &lt;/div&gt;
+
+&lt;div class="form-field   "&gt;
+                                &lt;div class="form-label "&gt;
+                &lt;label class="inline"  &gt;
+                                                                                                    Captcha
+
+                    &lt;span class="required"&gt;*&lt;/span&gt;
+                                    &lt;/label&gt;
+            &lt;/div&gt;
+                    &lt;div class="form-data "
+                            data-grav-field="captcha"
+            data-grav-disabled="true"
+            data-grav-default="null"
+                        &gt;
+                                    &lt;script&gt;
+    var captchaOnloadCallback = function captchaOnloadCallback() {
+        grecaptcha.render('g-recaptcha', {
+            'sitekey': "6Le5vnUUAAAAAHzAy9rfm_wy63bXttVCLFOtD0Lu",
+            'callback': captchaValidatedCallback,
+            'expired-callback': captchaExpiredCallback
+        });
+    };
+
+    var captchaValidatedCallback = function captchaValidatedCallback() {
+
+    };
+
+    var captchaExpiredCallback = function captchaExpiredCallback() {
+        grecaptcha.reset();
+    };
+
+    $('form').submit(function(event) {
+        if ($(this).has("#g-recaptcha-response").length &amp;&amp; $("#g-recaptcha-response").val() === '') {
+            event.preventDefault();
+            alert("Die Überprüfung des Captcha ist fehlgeschlagen.");
+        }
+    });
+&lt;/script&gt;
+&lt;script src="https://www.google.com/recaptcha/api.js?onload=captchaOnloadCallback&amp;render=explicit&amp;hl=de"
+    async defer&gt;
+&lt;/script&gt;
+&lt;div class="g-recaptcha" id="g-recaptcha"&gt;&lt;/div&gt;
+
+        &lt;/div&gt;
+        &lt;/div&gt;</code></pre>
+<input type="hidden" name="__form-name__" value="kontakt" />
+<pre><code>&lt;div class="buttons"&gt;
+
+                        &lt;button
+                                            class="button "
+
+            type="submit"
+
+                        &gt;
+            Senden
+      &lt;/button&gt;
+                                        &lt;button
+                                            class="button "
+
+            type="reset"
+
+                        &gt;
+            Reset
+      &lt;/button&gt;
+
+&lt;/div&gt;</code></pre>
+<p><input type="hidden" name="__unique_form_id__" value="Q4p8q2dA7X9cosirPYDW" />  <input type="hidden" name="form-nonce" value="741f7950ed2d354d6fad1c3600a3ed71" />
+</form></p>
+<pre><code>        &lt;form name="kontakt" action="" method="POST" id="kontakt"&gt;
+            &lt;fieldset&gt;
+                &lt;div class="form-group"&gt;
+                    &lt;label for="firmenname"&gt;Firmenname:&lt;/label&gt;
+                    &lt;input name="data[firmenname]" type="text" value="" class="form-control" id="firmenname"&gt;
+                &lt;/div&gt;
+                &lt;div class="form-group"&gt;
+                    &lt;label for="anrede"&gt;Anrede: &lt;span class="required"&gt;*&lt;/span&gt;&lt;/label&gt;
+                    &lt;select name="data[anrede]" class="form-control" id="anrede" autocomplete="on"&gt;
+                        &lt;option value=""&gt;&lt;/option&gt;
+                        &lt;option value="f" &gt;Frau&lt;/option&gt;
+                        &lt;option value="m" &gt;Herr&lt;/option&gt;
+                    &lt;/select&gt;
+                &lt;/div&gt;
+                &lt;div class="form-group"&gt;
+                    &lt;label for="name"&gt;Vor- und Nachname: &lt;span class="required"&gt;*&lt;/span&gt;&lt;/label&gt;
+                    &lt;input name="data[name]" type="text" value="" class="form-control" id="name"&gt;
+                &lt;/div&gt;
+                &lt;div class="form-group"&gt;
+                    &lt;label for="email"&gt;E-Mail: &lt;span class="required"&gt;*&lt;/span&gt;&lt;/label&gt;
+                    &lt;input name="data[email]" type="email" value="" class="form-control" id="email" aria-describedby="emailHelp" required="required"&gt;
+                &lt;/div&gt;
+                &lt;div class="form-group"&gt;
+                    &lt;label for="telefon"&gt;Telefon:&lt;/label&gt;
+                    &lt;input name="data[telefon]" type="tel" value="" class="form-control" id="telefon"&gt;
+                &lt;/div&gt;
+                &lt;div class="form-group"&gt;
+                    &lt;label for="betreff"&gt;Betreff: &lt;span class="required"&gt;*&lt;/span&gt;&lt;/label&gt;
+                    &lt;input name="data[betreff]" type="text" value="" class="form-control" id="betreff" required="required"&gt;
+                &lt;/div&gt;
+                &lt;div class="form-group"&gt;
+                    &lt;label for="nachricht"&gt;Nachricht:&lt;/label&gt;
+                    &lt;textarea  name="data[nachricht]" class="form-control" id="nachricht" rows="8"&gt;&lt;/textarea&gt;
+                &lt;/div&gt;
+                &lt;div class="col-lg-12"&gt;
+                    &lt;div class="checkbox" style="margin-top:20px;"&gt;
+                        &lt;table&gt;
+                            &lt;tr&gt;
+                                &lt;td valign="top"&gt;&lt;input type="checkbox" name="data[ja_ich_stimme_zu]" id="ja_ich_stimme_zu" required="required"&gt;&lt;/td&gt;
+                                &lt;td&gt;&lt;label for="ja_ich_stimme_zu" class="ml-5"&gt;Mit dieser Anmeldung akzeptieren Sie die &lt;a href="/html5_bootstrap/grav/agbs" target="_blank" class=""&gt;AGB&lt;/a&gt; der {FIRMENNAME} und bestätigen die Kenntnisnahme der Widerrufsbelehrung und unsere &lt;a href="/html5_bootstrap/grav/datenschutz" target="_blank" class=""&gt;Datenschutzbestimmungen&lt;/a&gt;.&lt;/label&gt;&lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/table&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="form-group mt-30"&gt;
+                    &lt;div style="width: 304px;" class="mx-auto"&gt;
+                        &lt;label for="captcha"&gt;Captcha: &lt;span class="required"&gt;*&lt;/span&gt;&lt;/label&gt;
+                        &lt;div class="form-data" data-grav-field="captcha" data-grav-disabled="true" data-grav-default="null"&gt;
+                            &lt;script&gt;
+                                var captchaOnloadCallback = function captchaOnloadCallback() {
+                                    grecaptcha.render('g-recaptcha', {
+                                        'sitekey': "6Le5vnUUAAAAAHzAy9rfm_wy63bXttVCLFOtD0Lu",
+                                        'callback': captchaValidatedCallback,
+                                        'expired-callback': captchaExpiredCallback
+                                    });
+                                };
+                                var captchaValidatedCallback = function captchaValidatedCallback() {};
+                                var captchaExpiredCallback = function captchaExpiredCallback() { grecaptcha.reset(); };
+                            &lt;/script&gt;
+                            &lt;script src="https://www.google.com/recaptcha/api.js?onload=captchaOnloadCallback&amp;render=explicit&amp;hl=de" async defer&gt;&lt;/script&gt;
+                            &lt;div class="g-recaptcha mx-auto" id="g-recaptcha"&gt;&lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;input type="hidden" name="__form-name__" value="kontakt" /&gt;
+                &lt;input type="hidden" name="form-nonce" value="741f7950ed2d354d6fad1c3600a3ed71" /&gt;
+                &lt;div class="text-center"&gt;
+                    &lt;button class="btn btn-primary" type="submit"&gt;Senden&lt;/button&gt;
+                &lt;/div&gt;
+            &lt;/fieldset&gt;
+        &lt;/form&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+<p></div></p>";s:12:"content_meta";N;}

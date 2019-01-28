@@ -1,0 +1,33 @@
+{% set langobj = grav['language'] %}
+{% set lis = '' %}
+
+{{ dump(langobj) }}
+
+{% for key in langswitcher.languages %}
+    {% if key == langswitcher.current %}
+        {% set lang_url = page.url %}
+    {% else %}
+        {% set lang_url = base_url_simple ~ langobj.getLanguageURLPrefix(key) ~ langswitcher.page_route ~ page.urlExtension ?: '/' %}
+    {% endif %}
+    {# key|capitalize #}
+    {% set lis = lis ~ '<li class="list-group-item"><a href="' ~ lang_url ~ uri.params ~ '" class="text-uppercase">' ~ native_name(key)|capitalize ~ '</a></li>' %}
+{% endfor %}
+
+<div class="text-center mt-20">
+<a 
+    tabindex="0"
+    id="btnLang"
+    class="btn btn-lg text-uppercase bgcolor_5 color_2 font-weight-bold"
+    role="button"
+    data-toggle="popover"
+    data-placement="bottom"
+    data-html="true"
+    data-content='
+        <ul class="list-group list-group-flush">
+            {{ lis }}
+        </ul>
+    '>
+        {{ langswitcher.current }}
+</a>
+</div>
+
