@@ -19,7 +19,8 @@ restaurant:
 	<div class="row">
 		<div class="col-lg-12">
 			<h1>Buttons & Icons</h1>
-			<hr />
+			<hr class="mb-0" />
+			{% set page1 = page.find('/components/breadcrumbs') %} {{ page1.content }}
 		</div>
 	</div>
 	<div class="row">

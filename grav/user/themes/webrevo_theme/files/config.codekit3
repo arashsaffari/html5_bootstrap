@@ -49782,6 +49782,16 @@
 		"oAP": "/fonts/font-awesome/pro-5.6.3/webfonts/fa-solid-900.woff2",
 		"oF": 0
 		},
+	"/img/breadcrumbs_angle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/breadcrumbs_angle.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/img/Logo.png": {
 		"ft": 32768,
 		"iS": 2933,

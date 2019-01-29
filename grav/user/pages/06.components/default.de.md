@@ -1,5 +1,8 @@
 ---
-title: Sub-1-1
+title: Components
+body_classes: 'title-center title-h1h2'
+routable: false
+visible: false
 twittercardoptions: summary
 articleenabled: false
 musiceventenabled: false
@@ -15,12 +18,3 @@ restaurant:
     priceRange: $
 ---
 
-<div class="container my-100">	
-	<div class="row">
-		<div class="col-lg-12">
-			<h1>Sub 1-1</h1>
-			<hr class="mb-0" />
-			{% set page1 = page.find('/components/breadcrumbs') %} {{ page1.content }}
-		</div>
-	</div>
-</div>

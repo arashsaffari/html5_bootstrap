@@ -137,3 +137,11 @@ h6,.h6 {
 	bottom: 10px;
 	right: 10px;
 }
+
+#topbreadcrumbs a,
+#topbreadcrumbs span,
+#topbreadcrumbs i{
+	font-size: 12px;
+	color: nth($colors-list, 15);
+	font-style: normal;
+}

@@ -27,7 +27,7 @@ class __TwigTemplate_3b5b3c3dbe0497ffe74e6135064579d964f71bda02c782aa37944e64127
         // line 5
         if (((twig_length_filter($this->env, ($context["crumbs"] ?? null)) > 1) || $this->getAttribute(($context["breadcrumbs_config"] ?? null), "show_all", []))) {
             // line 6
-            echo "<nav class=\"d-inline\" style=\"margin-bottom:1px\" aria-label=\"breadcrumb\" id=\"breadcrumbs\" itemscope itemtype=\"http://data-vocabulary.org/Breadcrumb\">
+            echo "<nav class=\"d-inline\" style=\"margin-bottom:1px\" aria-label=\"breadcrumb\" id=\"topbreadcrumbs\" itemscope itemtype=\"http://data-vocabulary.org/Breadcrumb\">
     <ol class=\"breadcrumb m-0 p-0 justify-content-center justify-content-md-center bg-transparent px-10 py-5\">
     ";
             // line 8
@@ -112,7 +112,7 @@ class __TwigTemplate_3b5b3c3dbe0497ffe74e6135064579d964f71bda02c782aa37944e64127
 {% set divider = breadcrumbs_config.icon_divider_classes %}
 
 {% if crumbs|length > 1 or breadcrumbs_config.show_all %}
-<nav class=\"d-inline\" style=\"margin-bottom:1px\" aria-label=\"breadcrumb\" id=\"breadcrumbs\" itemscope itemtype=\"http://data-vocabulary.org/Breadcrumb\">
+<nav class=\"d-inline\" style=\"margin-bottom:1px\" aria-label=\"breadcrumb\" id=\"topbreadcrumbs\" itemscope itemtype=\"http://data-vocabulary.org/Breadcrumb\">
     <ol class=\"breadcrumb m-0 p-0 justify-content-center justify-content-md-center bg-transparent px-10 py-5\">
     {% for crumb in crumbs %}
         <li class=\"breadcrumb-item\"><a  class=\"small color_8 hovercolor_4\" href=\"{{ crumb.url }}\" itemprop=\"url\"><span itemprop=\"title\">{{ crumb.menu }}</span></a></li>
