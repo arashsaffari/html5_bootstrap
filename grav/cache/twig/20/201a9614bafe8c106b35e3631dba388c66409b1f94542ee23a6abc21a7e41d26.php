@@ -57,7 +57,7 @@ class __TwigTemplate_0eab3694ec1860d7f9d8a74fee7e46e0d4ff79af767017ea16fe1a9c860
 \t\t\t<span class=\"navbar-toggler-icon\"></span>
 \t\t</button>
 
-\t\t<div class=\"collapse navbar-collapse flex-fill\" id=\"navbarsExampleDefault\">
+\t\t<div class=\"collapse navbar-collapse\" id=\"navbarsExampleDefault\">
             ";
         // line 54
         $this->displayBlock('header', $context, $blocks);
@@ -424,7 +424,7 @@ window.cookieconsent.initialise({
 \t\t\t<span class=\"navbar-toggler-icon\"></span>
 \t\t</button>
 
-\t\t<div class=\"collapse navbar-collapse flex-fill\" id=\"navbarsExampleDefault\">
+\t\t<div class=\"collapse navbar-collapse\" id=\"navbarsExampleDefault\">
             {% block header %}
                 {% block header_navigation %}{% include 'partials/navigation.html.twig' %}{% endblock %}
             {% endblock %}

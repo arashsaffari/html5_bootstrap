@@ -16,6 +16,49 @@ restaurant:
     priceRange: $
 ---
 
+{assets:inline_css}
+    .carousel-item {
+        height: 100vh;
+        min-height: 350px;
+        background: no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+{/assets}
+<div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+            <!-- Slide One - Set the background image for this slide in the line below -->
+            <div class="carousel-item active" style="background-image: url('https://source.unsplash.com/LAaSoL0LrYs/1920x1080')">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="display-1 fontstyle-3 font-w9">First Slide</h1>
+                    <p class="lead">This is a description for the first slide.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{# {% do assets.addCss('theme://files/plugins/swiper/css/****.css', {'priority':120, 'pipeline':false, 'loading':'inline'}) %} #}
+{# {% do assets.addJs('theme://files/js/****.js', {'priority':120, 'pipeline':false, 'loading':''}) %} #}
+
+{assets:inline_css}
+/*iPhone portrait mode*/
+@media only screen and (min-width: 0px) and (max-width: 479px){}
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+@media only screen and (min-width: 1200px) and (max-width: 1280px) {}
+@media only screen and (min-width: 1281px) {}
+{/assets}
+
+{assets:inline_js}
+$(document).ready(function(){});
+{/assets}
+
+
 # Say Hello to Grav!
 ## installation successful...
 
