@@ -1,8 +1,8 @@
 
 **/.DS_Store
 grav/.htaccess
-grav/backup/.gitkeep
-grav/cache/.gitkeep
-grav/images/.gitkeep
-grav/logs/.gitkeep
-grav/tmp/.gitkeep
+grav/backup/
+grav/cache/
+grav/images/
+grav/logs/
+grav/tmp/
