@@ -1,3 +1,24 @@
+# v1.8.19
+## 02/13/2019
+
+1. [](#bugfix)
+    * Moved `show_modular` to proper place - Doh! [grav#2362](https://github.com/getgrav/grav/issues/2362)  
+
+# v1.8.18
+## 02/12/2019
+
+1. [](#bugfix)
+    * Set default value for `show_modular` [grav#2362](https://github.com/getgrav/grav/issues/2362)  
+
+# v1.8.17
+## 02/07/2019
+
+1. [](#improved)
+    * Improved Grav Core installer/updater to run installer script (if available)
+    * Added `unauthorized.html.twig` file that was missing [#1609](https://github.com/getgrav/grav-plugin-admin/pull/1609)
+1. [](#bugfix)
+    * Fixed direct install deleting backups and logs if used with full Grav package instead of with update package
+
 # v1.8.16
 ## 01/25/2019
 
