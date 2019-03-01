@@ -7,7 +7,7 @@
 		"uuidString": "D7B7E778-2A8C-4CAF-8DB8-EF5D4517E9C0"
 		}
 	],
-"creatorBuild": "28905",
+"creatorBuild": "29156",
 "files": {
 	"/css/scss/base.css": {
 		"aP": 1,
@@ -22,6 +22,7 @@
 	"/css/scss/base.css.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/css/scss/base.css.map",
 		"oF": 0
@@ -337,6 +338,7 @@
 	"/img/startup/splash.xd": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/img/startup/splash.xd",
 		"oF": 0
@@ -476,11 +478,13 @@
 	"/img/touch-icon/touch-icon.xd": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/img/touch-icon/touch-icon.xd",
 		"oF": 0
 		},
 	"/js/modernizr-3.6.0.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -491,6 +495,7 @@
 		"tS": 0
 		},
 	"/js/settings.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -513,6 +518,7 @@
 	"/plugins/bootstrap/4.1.3/css/bootstrap-grid.css.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/plugins/bootstrap/4.1.3/css/bootstrap-grid.css.map",
 		"oF": 1
@@ -530,6 +536,7 @@
 	"/plugins/bootstrap/4.1.3/css/bootstrap-grid.min.css.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/plugins/bootstrap/4.1.3/css/bootstrap-grid.min.css.map",
 		"oF": 1
@@ -547,6 +554,7 @@
 	"/plugins/bootstrap/4.1.3/css/bootstrap-reboot.css.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/plugins/bootstrap/4.1.3/css/bootstrap-reboot.css.map",
 		"oF": 1
@@ -564,6 +572,7 @@
 	"/plugins/bootstrap/4.1.3/css/bootstrap-reboot.min.css.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/plugins/bootstrap/4.1.3/css/bootstrap-reboot.min.css.map",
 		"oF": 1
@@ -581,6 +590,7 @@
 	"/plugins/bootstrap/4.1.3/css/bootstrap.css.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/plugins/bootstrap/4.1.3/css/bootstrap.css.map",
 		"oF": 1
@@ -598,11 +608,13 @@
 	"/plugins/bootstrap/4.1.3/css/bootstrap.min.css.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/plugins/bootstrap/4.1.3/css/bootstrap.min.css.map",
 		"oF": 1
 		},
 	"/plugins/bootstrap/4.1.3/js/bootstrap.bundle.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -615,11 +627,13 @@
 	"/plugins/bootstrap/4.1.3/js/bootstrap.bundle.js.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/plugins/bootstrap/4.1.3/js/bootstrap.bundle.js.map",
 		"oF": 1
 		},
 	"/plugins/bootstrap/4.1.3/js/bootstrap.bundle.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -632,11 +646,13 @@
 	"/plugins/bootstrap/4.1.3/js/bootstrap.bundle.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/plugins/bootstrap/4.1.3/js/bootstrap.bundle.min.js.map",
 		"oF": 1
 		},
 	"/plugins/bootstrap/4.1.3/js/bootstrap.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -649,11 +665,13 @@
 	"/plugins/bootstrap/4.1.3/js/bootstrap.js.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/plugins/bootstrap/4.1.3/js/bootstrap.js.map",
 		"oF": 1
 		},
 	"/plugins/bootstrap/4.1.3/js/bootstrap.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -666,11 +684,13 @@
 	"/plugins/bootstrap/4.1.3/js/bootstrap.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/plugins/bootstrap/4.1.3/js/bootstrap.min.js.map",
 		"oF": 1
 		},
 	"/plugins/jquery/3.3.1/jquery-3.3.1.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -683,11 +703,13 @@
 	"/plugins/jquery/3.3.1/jquery-3.3.1.min.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/plugins/jquery/3.3.1/jquery-3.3.1.min.map",
 		"oF": 1
 		},
 	"/plugins/jquery/jquery-migrate-3.0.0.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -698,6 +720,7 @@
 		"tS": 0
 		},
 	"/plugins/popper/1.14.3/esm/popper-utils.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -710,11 +733,13 @@
 	"/plugins/popper/1.14.3/esm/popper-utils.js.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/plugins/popper/1.14.3/esm/popper-utils.js.map",
 		"oF": 1
 		},
 	"/plugins/popper/1.14.3/esm/popper-utils.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -727,11 +752,13 @@
 	"/plugins/popper/1.14.3/esm/popper-utils.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/plugins/popper/1.14.3/esm/popper-utils.min.js.map",
 		"oF": 1
 		},
 	"/plugins/popper/1.14.3/esm/popper.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -744,11 +771,13 @@
 	"/plugins/popper/1.14.3/esm/popper.js.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/plugins/popper/1.14.3/esm/popper.js.map",
 		"oF": 1
 		},
 	"/plugins/popper/1.14.3/esm/popper.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -761,11 +790,13 @@
 	"/plugins/popper/1.14.3/esm/popper.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/plugins/popper/1.14.3/esm/popper.min.js.map",
 		"oF": 1
 		},
 	"/plugins/popper/1.14.3/popper-utils.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -778,11 +809,13 @@
 	"/plugins/popper/1.14.3/popper-utils.js.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/plugins/popper/1.14.3/popper-utils.js.map",
 		"oF": 1
 		},
 	"/plugins/popper/1.14.3/popper-utils.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -795,11 +828,13 @@
 	"/plugins/popper/1.14.3/popper-utils.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/plugins/popper/1.14.3/popper-utils.min.js.map",
 		"oF": 1
 		},
 	"/plugins/popper/1.14.3/popper.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -812,11 +847,13 @@
 	"/plugins/popper/1.14.3/popper.js.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/plugins/popper/1.14.3/popper.js.map",
 		"oF": 1
 		},
 	"/plugins/popper/1.14.3/popper.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -829,11 +866,13 @@
 	"/plugins/popper/1.14.3/popper.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/plugins/popper/1.14.3/popper.min.js.map",
 		"oF": 1
 		},
 	"/plugins/popper/1.14.3/umd/popper-utils.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -846,11 +885,13 @@
 	"/plugins/popper/1.14.3/umd/popper-utils.js.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/plugins/popper/1.14.3/umd/popper-utils.js.map",
 		"oF": 1
 		},
 	"/plugins/popper/1.14.3/umd/popper-utils.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -863,11 +904,13 @@
 	"/plugins/popper/1.14.3/umd/popper-utils.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/plugins/popper/1.14.3/umd/popper-utils.min.js.map",
 		"oF": 1
 		},
 	"/plugins/popper/1.14.3/umd/popper.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -880,11 +923,13 @@
 	"/plugins/popper/1.14.3/umd/popper.js.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/plugins/popper/1.14.3/umd/popper.js.map",
 		"oF": 1
 		},
 	"/plugins/popper/1.14.3/umd/popper.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -897,6 +942,7 @@
 	"/plugins/popper/1.14.3/umd/popper.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/plugins/popper/1.14.3/umd/popper.min.js.map",
 		"oF": 1
@@ -996,6 +1042,12 @@
 		"function-sent": {
 			"active": 0
 			},
+		"inline-consecutive-adds": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
 		"instanceof": {
 			"active": 0
 			},
@@ -1015,6 +1067,36 @@
 			"active": 0
 			},
 		"minify-booleans": {
+			"active": 0
+			},
+		"minify-builtins": {
+			"active": 0
+			},
+		"minify-constant-folding": {
+			"active": 0
+			},
+		"minify-dead-code-elimination": {
+			"active": 0
+			},
+		"minify-flip-comparisons": {
+			"active": 0
+			},
+		"minify-guarded-expressions": {
+			"active": 0
+			},
+		"minify-infinity": {
+			"active": 0
+			},
+		"minify-mangle-names": {
+			"active": 0
+			},
+		"minify-numeric-literals": {
+			"active": 0
+			},
+		"minify-simplify": {
+			"active": 0
+			},
+		"minify-type-constructors": {
 			"active": 0
 			},
 		"modules-amd": {
@@ -1065,6 +1147,9 @@
 		"pipeline-operator": {
 			"active": 0
 			},
+		"private-methods": {
+			"active": 0
+			},
 		"property-literals": {
 			"active": 0
 			},
@@ -1098,10 +1183,16 @@
 		"regenerator": {
 			"active": 0
 			},
+		"regexp-constructors": {
+			"active": 0
+			},
 		"remove-console": {
 			"active": 0
 			},
 		"remove-debugger": {
+			"active": 0
+			},
+		"remove-undefined": {
 			"active": 0
 			},
 		"reserved-words": {
@@ -2050,6 +2141,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-useless-catch": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-useless-computed-key": {
 			"active": 0,
 			"optionString": ""
@@ -2712,6 +2807,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -2733,6 +2829,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"bundleFormat": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 3,
@@ -2755,7 +2852,8 @@
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -2794,6 +2892,7 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -2803,7 +2902,8 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -2824,7 +2924,8 @@
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
 		"outputStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -2853,7 +2954,8 @@
 		"outputFormat": 0,
 		"outputStyle": 1,
 		"railsCompatible": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -2941,16 +3043,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"ascii_only": {
-			"active": 0,
+		"arrows": {
+			"active": 1,
 			"flagValue": -1
 			},
-		"bare_returns": {
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
 		"booleans": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"booleans_as_integers": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"braces": {
@@ -2962,14 +3068,14 @@
 			"flagValue": -1
 			},
 		"comments": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"comparisons": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"compress": {
+		"computed_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -2992,6 +3098,10 @@
 		"drop_debugger": {
 			"active": 1,
 			"flagValue": -1
+			},
+		"ecma": {
+			"active": 1,
+			"flagValue": 5
 			},
 		"eval": {
 			"active": 0,
@@ -3017,10 +3127,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"html5_comments": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"ie8": {
 			"active": 0,
 			"flagValue": -1
@@ -3029,13 +3135,13 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-start": {
-			"active": 0,
-			"flagValue": 0
-			},
 		"indent_level": {
 			"active": 0,
 			"flagValue": 4
+			},
+		"indent_start": {
+			"active": 0,
+			"flagValue": 0
 			},
 		"inline": {
 			"active": 1,
@@ -3047,6 +3153,10 @@
 			},
 		"join_vars": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"keep_classnames": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"keep_fargs": {
@@ -3069,13 +3179,13 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"mangle": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
+			},
+		"module": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"negate_iife": {
 			"active": 1,
@@ -3084,10 +3194,6 @@
 		"passes": {
 			"active": 1,
 			"flagValue": 1
-			},
-		"preserve_line": {
-			"active": 0,
-			"flagValue": -1
 			},
 		"properties": {
 			"active": 1,
@@ -3111,6 +3217,10 @@
 			},
 		"reduce_vars": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"safari10": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"semicolons": {
@@ -3145,6 +3255,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"unsafe_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"unsafe_comps": {
 			"active": 0,
 			"flagValue": -1
@@ -3154,6 +3268,10 @@
 			"flagValue": -1
 			},
 		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_methods": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3181,15 +3299,12 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"width": {
-			"active": 1,
-			"flagValue": 80
-			},
 		"wrap_iife": {
 			"active": 0,
 			"flagValue": -1
 			}
 		},
+	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$",
 	"websiteRelativeRoot": ""
 	},
