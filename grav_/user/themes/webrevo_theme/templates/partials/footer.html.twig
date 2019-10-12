@@ -1,0 +1,46 @@
+
+<div class="bgcolor_3 bgcolor-3">
+    <div class="container pt-50 pb-40">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <a style="white-space: normal;" href="{{ url('kontakt') }}" class="btn btn-lg bordercolor-2 color-2 hoverbgcolor-4 hoverbordercolor-4">kostenlose Beratung</a>
+                <div class="mt-20">
+                    <h6 class="font_w6 h8 color-2 text-muted small">Wir sorgen dafür, dass Sie, Ihre Mitarbeiter und Kunden problemlos und vollkommen sicher Ihren Tätigkeiten nachgehen können.</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bgcolor-6">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md-12 col-lg-12 py-40">
+                <ul class="list-inline nav-footer1 flex-column flex-sm-row row">
+                    {% for page in pages.children %}
+                        {% set current_page = (page.active or page.activeChild) ? 'color_3 font_w6' : '' %}
+                        {% if page.header.body_classes != "footer_menu_hide" %}
+                        <li class="list-inline-item col-md-6 col-lg-4 mx-0">
+                            <a class="d-block color_1 hovercolor_4 text-center text-md-left" href="{{ page.url }}">
+                                <small class="{{ current_page }}">{{ page.menu }}</small>
+                            </a>
+                        </li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+
+            
+        </div>
+    </div>
+</div>
+
+<div class="bgcolor_2 footerBG">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="small p-0 my-20 text-center">© 2019. Alle Rechte vorbehalten</p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+<ul class="list-unstyled mb-0 mt-sm-50" >
+    {{ dump(page.collection) }}
+    {% for p in page.collection.order('folder','asc') %}
+        {{ dump(p) }}
+        <li>
+            <a href="#">
+                {{ p.title }}
+            </a>
+        </li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,147 @@
+/****************
+Base styles
+*****************/
+
+*{-webkit-user-select: text!important;}
+html { -webkit-text-size-adjust: 100%;}
+
+body
+{
+	/* Better Font Rendering */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	
+	font-family: 	$body-font;
+	font-size: 		$body-font-size;
+	color: 			$body-color;
+	background: 	$body-backgound-color;
+	font-weight: 	$body-font-weight;
+	overflow-x: 	hidden;
+}
+
+::-moz-selection
+{
+	background: $selection-backgound-color;
+	color: $selection-color;
+	text-shadow: none;
+}
+
+::selection
+{
+	background: $selection-backgound-color;
+	color: $selection-color;
+	text-shadow: none;
+}
+
+/* Remove the gap between elemets*/
+audio,canvas,img,video {vertical-align: middle;}
+
+a {
+	outline: 0 !important;
+	color: $a-color;
+	text-decoration: none !important;
+}
+a:visited {
+	color: $a-color;
+}
+a:hover {
+	color: $a-hover-color;
+}
+
+p{
+	line-height: $p-line-height;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6, .h7{
+	font-family: $fontstyle-2;
+	// line-height: 1;
+}
+
+h1,.h1 {
+	font-size: $h1-font-size-desktop;
+}
+
+h2,.h2 {
+	font-size: $h2-font-size-desktop;
+}
+
+h3,.h3 {
+	font-size: $h3-font-size-desktop;
+}
+
+h4,.h4 {
+	font-size: $h4-font-size-desktop;
+}
+
+h5,.h5 {
+	font-size: $h5-font-size-desktop;
+}
+
+h6,.h6 {
+	font-size: $h6-font-size-desktop;
+}
+
+.h7 {
+	font-size: $h7-font-size-desktop;
+}
+
+.fontstyle-1 	{font-family: $fontstyle-1 !important; font-weight: 300}
+.fontstyle-2 	{font-family: $fontstyle-2 !important; font-weight: 700}
+.fontstyle-3	{font-family: $fontstyle-3 !important; width: 100}
+
+.font-w1 {font-weight: 100;}
+.font-w2 {font-weight: 200;}
+.font-w3 {font-weight: 300;}
+.font-w4 {font-weight: 400;}
+.font-w5 {font-weight: 500;}
+.font-w6 {font-weight: 600;}
+.font-w7 {font-weight: 700;}
+.font-w8 {font-weight: 800;}
+.font-w9 {font-weight: 900;}
+
+.boxshadowinset-1	{ @include box-shadow ( inset 0px 0px 82px -22px rgba(0,0,0,0.83) ); }
+
+.boxshadow-1		{ @include box-shadow ( 0px 0px 23px 3px rgba(0,0,0,0.17) ); }
+
+.round-50			{ @include border-radius (50%); }
+
+.btn-circle.btn-lg {
+	width: 70px;
+    height: 70px;
+    padding: 12px 0 0 0;
+    font-size: 35px;
+	line-height: 1.33;
+}
+
+.btn-circle.btn-sm{
+    width: 30px;
+    height: 30px;
+	padding: 5px 0 0 0;
+    font-size: 16px;
+	line-height: 1.33;
+}
+
+.btn-circle {
+    width: 40px;
+    height: 40px;
+    padding: 7px 0 0 0;
+    @include border-radius (50%);
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.42857;
+}
+
+#go-to-top{
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+}
+
+#topbreadcrumbs a,
+#topbreadcrumbs span,
+#topbreadcrumbs i{
+	font-size: 12px;
+	color: nth($colors-list, 15);
+	font-style: normal;
+}

@@ -1,0 +1,25 @@
+{% extends 'partials/base.html.twig' %}
+
+{% set breadcrumbs %}
+	{% include 'partials/breadcrumbs.html.twig' %}
+{% endset %}
+
+{% set form_massage %}
+	{% if form.message %}
+		{% set inline_errors = form.inline_errors is not null ? form.inline_errors : config.plugins.form.inline_errors(false) %}
+		{% set status_mapping = {'success':'bg-success color_2', 'error': 'bg-danger color_2', 'warning': 'bg-warning'} %}
+		{% set message = inline_errors and form.messages ? "FORM.VALIDATION_FAIL"|t : form.message %}
+		<div class="{{ form.status }} {{ status_mapping[form.status] ?: 'green' }} rounded p-20 my-30">{{ message|raw }}</div>
+	{% endif %}
+{% endset %}
+
+{% block content %}
+	{# {{ page.content }} #}
+	
+	{{ 
+		page.content|replace({
+			'<!--%breadcrumbs%-->': breadcrumbs,
+			'<!--%form_massage%-->': form_massage
+		})
+	}}
+{% endblock %}

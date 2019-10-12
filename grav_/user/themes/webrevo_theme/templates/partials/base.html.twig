@@ -1,0 +1,133 @@
+{# {% spaceless %} #}
+{# {% set css_loading = "inline" %} #}
+{% set css_loading = "" %}
+{% set theme_config = attribute(config.themes, config.system.pages.theme) %}
+
+<!DOCTYPE html>
+<html lang="{{ grav.language.getActive ?: grav.config.site.default_lang }}">
+<head>
+{% block head %}
+    <meta charset="utf-8" />
+    <meta name="author" content="Arash Saffari" />
+    <title>{% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
+    {% include 'partials/metadata.html.twig' %}
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+   
+    <link rel="canonical" href="{{ page.url(true, true) }}"/>
+
+    <!-- touch device setting -->
+    <link rel="icon" href="{{ url('favicon.ico') }}">
+    <link rel="icon" type="image/png" href="{{ url('favicon.png') }}" />
+    
+    {# {% include 'partials/langswitcher.hreflang.html.twig' %} #}
+
+    {% block stylesheets %}
+        {% do assets.addCss('https://fonts.googleapis.com/css?family=Raleway:300,400,600,700,900', {'priority':125}) %}
+        {% do assets.addCss('theme://files/plugins/bootstrap/4.3.1/css/bootstrap.min.css', {'priority':120, 'pipeline':false, 'loading':css_loading}) %}
+        {% do assets.addCss('theme://files/fonts/font-awesome/pro-5.7.2/css/all.min.css', {'priority':118}) %}
+        {% do assets.addCss('theme://files/css/animate.min.css', {'priority':116, 'pipeline':false, 'loading':css_loading}) %}
+        {% do assets.addCss('theme://files/plugins/fancybox/dist/jquery.fancybox.min.css', {'priority':115, 'pipeline':false, 'loading':css_loading}) %}
+        {% do assets.addCss('theme://files/plugins/cookieconsent/3.1.0/build/cookieconsent.min.css', {'priority':114, 'pipeline':false, 'loading':css_loading}) %}
+        {% do assets.addCss('theme://files/css/scss/base.css', {'priority':113, 'pipeline':false, 'loading':css_loading}) %}
+        {% if browser.getBrowser == 'msie' and browser.getVersion == 10 %}{% endif %}
+        {% if browser.getBrowser == 'msie' and browser.getVersion >= 8 and browser.getVersion <= 9 %}{% endif %}
+    {% endblock %}
+    {{ assets.css() }}
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P7WPV72');</script>
+    <!-- End Google Tag Manager -->
+    <script src="{{ url('theme://files/js/modernizr-2.8.3.min.js') }}"></script>
+
+{% endblock head %}
+</head>
+<body class="{{ page.header.body_classes }}" id="top">
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top" id="mainMenu">
+		<a class="navbar-brand" href="{{ url('home') }}">Navbar {# <img src="{{ url('theme://files/img/*.svg') }}" class="img-fluid" alt="" title=""> #}</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            {% block header %}
+                {% block header_navigation %}{% include 'partials/navigation.html.twig' %}{% endblock %}
+            {% endblock %}
+            <form name="search" data-simplesearch-form>
+                <input
+                    name="searchfield"
+                    type="text"
+                    class="form-control bordercolor_7"
+                    {# placeholder="{{"PLUGIN_SIMPLESEARCH.SEARCH_PLACEHOLDER"|t}}" #}
+                    value="{{ query|e }}"
+                    data-search-invalid="{{ "PLUGIN_SIMPLESEARCH.SEARCH_FIELD_MINIMUM_CHARACTERS"|t(min_chars)|raw }}"
+                    data-search-separator="{{ config.system.param_sep }}"
+                    data-search-input="{{ base_url }}{{ config.plugins.simplesearch.route == '@self' ? '' : (config.plugins.simplesearch.route == '/' ? '' : config.plugins.simplesearch.route) }}/query"
+                >
+            </form>
+		</div>
+	</nav>
+
+    {% block messages %}{# {% include 'partials/messages.html.twig' ignore missing %} #}{% endblock %}
+
+    {% block body %}
+        <div id="body_content">
+            {% block content %}{% endblock %}
+        </div>
+    {% endblock %}
+
+    {% block footer %}
+    <footer id="footer">
+        {% include 'partials/footer.html.twig' %}
+    </footer>
+    {% endblock %}
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="{{ url("theme://files/plugins/jquery/3.3.1/jquery-3.3.1.min.js") }}"><\/script>')</script>
+    {% block javascripts %}
+        {% do assets.addJs('theme://files/plugins/popper/1.14.3/umd/popper.min.js', {'priority':80, 'pipeline':false, 'loading':''}) %}
+        {% do assets.addJs('theme://files/plugins/bootstrap/4.3.1/js/bootstrap.min.js', {'priority':77, 'pipeline':false, 'loading':''}) %}
+        {% do assets.addJs('theme://files/plugins/fancybox/dist/jquery.fancybox.min.js', {'priority':74, 'pipeline':false, 'loading':css_loading}) %}
+        {% do assets.addJs('theme://files/js/wow.min.js', {'priority':70, 'pipeline':false, 'loading':css_loading}) %}
+        {% do assets.addJs('theme://files/plugins/cookieconsent/3.1.0/build/cookieconsent.min.js', {'priority':65, 'pipeline':false, 'loading':css_loading}) %}
+        {% do assets.addJs('theme://files/js/settings.js', {'priority':50, 'pipeline':false, 'loading':css_loading}) %}
+    {% endblock %}
+    {{ assets.js() }}
+    
+    {{ assets.outputJs() }}
+
+    {% block bottom %}
+        {{ assets.js('bottom') }}
+    {% endblock %}
+
+<a href="#top" id="go-to-top" style="display: none;" class="bgcolor-4 color-2 btn-circle btn-lg"><i class="fas fa-arrow-up"></i></a>
+
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "#f1d600"
+    }
+  },
+  "position": "bottom-left",
+  "content": {
+    "message": "Diese Website nutzt Cookies. Indem Sie fortfahren, stimmen Sie der Nutzung zu.",
+    "dismiss": "Verstanden",
+    "link": "Weitere Informationen",
+    "href": "{{ url("datenschutz") }}"
+  }
+})});
+</script>
+
+<script>
+    var base_url_relative =  "{{ base_url_relative }}";
+</script>
+
+</body>
+</html>
+{# {% endspaceless %} #}

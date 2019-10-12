@@ -1,0 +1,12 @@
+{% if form.message %}
+  <div class="container mt-80">	
+    <div class="row">
+      <div class="col-lg-12">
+        {% set inline_errors = form.inline_errors is not null ? form.inline_errors : config.plugins.form.inline_errors(false) %}
+        {% set status_mapping = {'success':'alert alert-success', 'error': 'alert alert-danger', 'warning': 'alert alert-warning'} %}
+        {% set message = inline_errors and form.messages ? "FORM.VALIDATION_FAIL"|t : form.message %}
+        <div class="{{ form.status }} {{ status_mapping[form.status] ?: 'green' }} mt-2 mb-2">{{ message|raw }}</div>
+      </div>
+    </div>
+  </div>
+{% endif %}
