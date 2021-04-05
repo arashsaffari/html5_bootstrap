@@ -1,0 +1,8 @@
+{
+	"name": "arassaffati/html5_bootstrap",
+	"type": "project",
+	"scripts": {
+		"sass": "sass --style=compressed ./files/css/scss/base.scss:./files/css/base.css",
+		"sasswatch": "sass --watch --style=compressed ./files/css/scss:./files/css"
+	}
+}
