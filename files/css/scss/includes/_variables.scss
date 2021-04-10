@@ -55,12 +55,6 @@ $spacers: (
 	140 140px,
 	150 150px,
 	200 200px,
-	250 250px,
-	300 300px,
-	350 350px,
-	400 400px,
-	450 450px,
-	500 500px,
 ) !default;
 
 
@@ -85,13 +79,21 @@ $body_font:			 		$fontstyle-1;
 $body_font_size:			16px;
 $body_font_weight:			normal;
 
-// font-size-{bp}-{size}
+// fs-{bp}-{size}
 $fontsizes: (
-	xs: 80%,
-	s: 90%,
+	xxxxxs: 65%,
+	xxxxs: 70%,
+	xxxs: 75%,
+	xxs: 80%,
+	xs: 90%,
+	s: 80%,
 	m: $body_font_size,
-	l: 110%,
-	xl: 120%
+	61: calc(1.325rem + .05vw),
+	51: calc(1.325rem + .38vw),
+	41: calc(1.325rem + .65vw),
+	31: calc(1.325rem + 1.0vw),
+	21: calc(1.325rem + 1.4vw),
+	11: calc(1.325rem + 2.1vw),
 ) !default;
 
 // line-height-{bp}-{size}
@@ -174,7 +176,8 @@ $breakpoints: (
 	sm: 576px,
 	md: 768px,
 	lg: 992px,
-	xl: 1200px
+	xl: 1200px,
+	xxl: 1400px
 ) !default;
 
 @mixin breakpoint($bp, $rule: min-width) {

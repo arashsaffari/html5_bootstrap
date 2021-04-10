@@ -1,32 +1,90 @@
-#mainMenu{
-    @include box-shadow (0px 0px 50px 1px rgba(0,0,0,0.2));
-}
+#mainMenu{ @include box-shadow (0px 0px 50px 1px rgba(0,0,0,0.2)); }
 
-#mainMenu .dropdown.show > .dropdown-menu,
-#mainMenu .dropdown:hover > .dropdown-menu,
-#mainMenu .sub-menu:hover > .dropdown-menu
- {
-    display: block;
-    margin-top:0px;
-}
-.sub-menu .dropdown-menu{
-    margin-left: 0px;
-}
-.sub-menu.dropleft .dropdown-menu{
-    margin-right: -1px;
-}
-
-
-@include breakpoint(sm) {
-    #mainMenu{}
-}
 
 /****************
-all iPhone
+sm up
 *****************/
-@media only screen and (max-width: 767px){
+@media (min-width: 576px) {}
 
-}
+/****************
+md up
+*****************/
+@media (min-width: 768px) {}
+
+/****************
+lg up
+*****************/
+@media (min-width: 992px) {}
+
+/****************
+xl up
+*****************/
+@media (min-width: 1200px) {}
+
+/****************
+xxl up
+*****************/
+@media (min-width: 1400px) {}
+
+
+
+
+
+/****************
+sm down
+*****************/
+@media (max-width: 575.98px) {}
+
+/****************
+md down
+*****************/
+@media (max-width: 767.98px) {}
+
+/****************
+lg down
+*****************/
+@media (max-width: 991.98px) {}
+
+/****************
+xl down
+*****************/
+@media (max-width: 1199.98px) {}
+
+/****************
+xxl down
+*****************/
+@media (max-width: 1399.98px) {}
+
+
+
+/****************
+sm - iPhone landscape and portrait  mode
+*****************/
+@media (min-width: 576px) {}
+
+
+/****************
+md - iPad portrait mode
+*****************/
+@media (min-width: 768px) {}
+
+
+/****************
+lg - iPad landscape mode
+*****************/
+@media (min-width: 992px) {}
+
+
+/****************
+xl - Desktop
+*****************/
+@media (min-width: 1200px) {}
+
+
+/****************
+xxl - Desktop
+*****************/
+@media (min-width: 1400px) {}
 
 
 
@@ -79,34 +137,5 @@ iPad portrait mode
 iPad landscape mode
 *****************/
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-
-}
-
-
-/****************
-iPhone landscape and portrait  mode
-*****************/
-@media (min-width: 576px) {
-	
-}
-
-/****************
-iPad portrait mode
-*****************/
-@media (min-width: 768px) { 
-
-}
-
-/****************
-iPad landscape mode
-*****************/
-@media (min-width: 992px) {
-
-}
-
-/****************
-Desktop Normal mode
-*****************/
-@media (min-width: 1200px) {
 
 }

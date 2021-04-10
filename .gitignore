@@ -1,8 +1,18 @@
+/.htaccess
+/.htaccess_server
 
+*.DS_Store
 **/.DS_Store
-grav/.htaccess
-grav/backup/
-grav/cache/
-grav/images/
-grav/logs/
-grav/tmp/
+
+assets/**
+!assets/.gitignore
+backup/**
+!backup/.gitignore
+cache/**
+!cache/.gitignore
+images/**
+!images/.gitignore
+logs/**
+!logs/.gitignore
+tmp/**
+!tmp/.gitignore

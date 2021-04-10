@@ -7,7 +7,7 @@
 		$bp: '-#{$breakingpoint}';
 	}
 
-	.font-size#{$bp}-#{$font_size_name}   {
+	.fs#{$bp}-#{$font_size_name}   {
 		font-size: $font-size-value;
 	}
 
