@@ -22,7 +22,7 @@ $colors-list:
 $a-color:					nth($colors-list, 3);
 $a-hover-color: 			nth($colors-list, 4);
 
-$body-color:				nth($colors-list, 1);
+$body-color:				#333;
 $body-backgound_color:		nth($colors-list, 2);
 $selection-color: 			nth($colors-list, 3);
 $selection-backgound-color:	rgba(
@@ -70,14 +70,14 @@ $text-columns: (
 /*---------------------------------
  [Typography]
 -----------------------------------*/
-$fontstyle-1: 'Roboto', sans-serif;
-$fontstyle-2: "Quicksand", sans-serif;
-$fontstyle-3: "Raleway", sans-serif;
+$fontstyle-1: 'Poppins', sans-serif;
+$fontstyle-2: 'Poppins', sans-serif;
+$fontstyle-3: 'Poppins', sans-serif;
 
 
-$body_font:			 		$fontstyle-1;
-$body_font_size:			16px;
-$body_font_weight:			normal;
+$body-font:			 		$fontstyle-1;
+$body-font-size:			18px;
+$body-font-weight:			400;
 
 // fs-{bp}-{size}
 $fontsizes: (
@@ -110,7 +110,7 @@ $line-heighters: (
 	xxl: 2,
 ) !default;
 
-$p-line-height:				map-get($line-heighters, m);
+$p-line-height:				map-get($line-heighters, l);
 
 $h1-font-size-desktop:		2.8em;
 $h2-font-size-desktop:		2.4em;
