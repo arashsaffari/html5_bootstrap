@@ -73,12 +73,10 @@ jQuery(function($){
 	}
 
 	myApp.fancybox = function(){
-		$('[data-fancybox]').fancybox({
-			youtube: {
-				controls : 0,
-				showinfo : 0,
-				autoplay: true
-			}
+		Fancybox.bind('[data-fancybox]', {
+			Image: {
+				zoom: false,
+			},
 		});
 	}
 

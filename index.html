@@ -15,13 +15,35 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com"> 
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@100;300;400;500;700;800&display=swap" rel="stylesheet">
 
-	<link rel="stylesheet" href="./files/plugins/bootstrap/5.1.0/css/bootstrap.min.css">
-	<link rel="stylesheet" href="./files/plugins/fancybox/3.5.7/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="./files/plugins/bootstrap/5.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./files/plugins/fancybox/4.0.10/dist/fancybox.css">
 	<link rel="stylesheet" href="./files/css/animate4.min.css">
 	<link rel="stylesheet" href="./files/css/base.css">
 
 </head>
 <body class="">
+
+	<div class="container pt-4 mb-100">
+		<div class="row">
+			<div class="col-12">
+				
+				<test-element name="Test Element 1">
+					Description from Test Element 1
+					<div slot="email">testElement1@te.com</div>
+				</test-element>
+				
+				<hr />
+
+				<test-element name="Test Element 2">
+					Description from Test Element 2
+					<div slot="email">testElement2@te.com</div>
+				</test-element>
+
+			</div>
+		</div>
+	</div>
+	
+	
 
 	<div class="container pt-4 bgcolor-1">
 		<div class="row">
@@ -63,6 +85,7 @@
 			</div>
 		</div>
 	</div>
+	
 
 	<div class="container pt-4 bgcolor-1">
 		<div class="row">
@@ -138,11 +161,33 @@
 	</div>
 
 	<div class="container">
+		
 		<div class="row">
-			<div class="col-5 mt-50 mx-auto">
-				<img class="mx-auto img-fluid wow animate__fadeIn animate__animated" src="https://via.placeholder.com/350">
+			<div class="col-md-3 mt-50 mx-auto">
+				<a href="https://via.placeholder.com/1050" data-fancybox class="m-5">
+					<img class="mx-auto img-fluid wow animate__fadeIn animate__animated" src="https://via.placeholder.com/350">
+				</a>
+			</div>
+			<div class="col-md-3 mt-50 mx-auto">
+				<a href="https://www.youtube.com/watch?v=K4TOrB7at0Y" data-type="html" data-fancybox class="m-5">
+					<img class="mx-auto img-fluid wow animate__fadeIn animate__animated" src="https://via.placeholder.com/350?text=Youtube">
+				</a>
+			</div>
+			<div class="col-md-3 mt-50 mx-auto">
+				<a href="./index.html" data-type="iframe" data-fancybox class="m-5">
+					<img class="mx-auto img-fluid wow animate__fadeIn animate__animated" src="https://via.placeholder.com/350?text=HTML">
+				</a>
+			</div>
+			<div class="col-md-3 mt-50 mx-auto">
+				<a href="http://www.africau.edu/images/default/sample.pdf" data-type="pdf" data-fancybox class="m-5">
+					<img class="mx-auto img-fluid wow animate__fadeIn animate__animated" src="https://via.placeholder.com/350?text=PDF">
+				</a>
 			</div>
 		</div>
+		
+	</div>
+
+	<div class="container">
 		<div class="row">
 			<div class="col-12 mt-50">
 				<h1 class="m-0 fontstyle-2">H1 Size</h1>
@@ -185,9 +230,12 @@
 
 	<script src="./files/js/modernizr-3.11.2.min.js"></script>
 	<script src="./files/plugins/jquery/3.6.0/jquery.min.js"></script>
-	<script src="./files/plugins/bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>
+	<script src="./files/plugins/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
 	<script src="./files/plugins/wow/1.3.0/wow.min.js"></script>
-	<script src="./files/plugins/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+	<script src="./files/plugins/fancybox/4.0.10/dist/fancybox.umd.js"></script>
+
+	<script src="./files/js/customElements/element1.js"></script>
+
 	<script src="./files/js/settings.js"></script>
 	<script>
 		$( document ).ready(function () {
