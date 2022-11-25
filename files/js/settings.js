@@ -72,23 +72,22 @@ jQuery(function($){
 		});
 	}
 
+	myApp.josh = function(){
+		const josh = new Josh({
+			initClass: "animateme",			// DOM CSS class to Animate, default is "josh-js"
+			animClass: "animate__animated",	// Animation CSS class from Animate.css library
+			offset: 0.2,					// Element distance of viewport to triggering the animation. default is 0.2 means 20% of element view animation will trigger
+			animateInMobile: true,			// Animation will trigger on Mobile or not. Default is true
+			onDOMChange: false,				// Animation will trigger on newly added element or not. Default is false
+		});
+	}
+
 	myApp.fancybox = function(){
 		Fancybox.bind('[data-fancybox]', {
 			Image: {
 				zoom: false,
 			},
 		});
-	}
-
-	myApp.wow = function(){
-		wow = new WOW({
-			boxClass:     'wow',      // default
-			animateClass: 'animate__animated', // default
-			offset:       0,          // default
-			mobile:       false,       // default
-			live:         true        // default
-		});
-		wow.init();
 	}
 
 	myApp.test = function(){
@@ -101,12 +100,11 @@ jQuery(function($){
 	//init
 	//
 	myApp.hash_click();
-	
+	myApp.josh();
 	$(window).scroll(function(){
 		myApp.goToTop_display();
 	});
 	myApp.goToTop_winResize();
 	myApp.fancybox();
-	myApp.wow();
 	myApp.test();
 });

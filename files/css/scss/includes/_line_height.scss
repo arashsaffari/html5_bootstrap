@@ -8,7 +8,7 @@
 	}
 
 	.lh#{$bp}-#{$line_height_name}   {
-		line-height: $line_height_value;
+		line-height: $line_height_value !important;
 	}
 
 }

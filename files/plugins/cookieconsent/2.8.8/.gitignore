@@ -1,0 +1,6 @@
+dev_tools/
+.vscode/
+*.py
+*.env
+*.jar
+node_modules

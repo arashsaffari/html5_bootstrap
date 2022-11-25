@@ -10,6 +10,7 @@ body
 	/* Better Font Rendering */
 	-webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
 	
 	font-family: 	$body-font;
 	font-size: 		$body-font-size;
@@ -17,6 +18,7 @@ body
 	background: 	$body-backgound-color;
 	font-weight: 	$body-font-weight;
 	overflow-x: 	hidden;
+	font-weight:	400;
 }
 
 ::-moz-selection
@@ -88,7 +90,6 @@ h6,.h6 {
 
 .fontstyle-1 	{font-family: $fontstyle-1 !important; font-weight: 300}
 .fontstyle-2 	{font-family: $fontstyle-2 !important; font-weight: 700}
-.fontstyle-3	{font-family: $fontstyle-3 !important; width: 100}
 
 .font-w1 {font-weight: 100;}
 .font-w2 {font-weight: 200;}
@@ -138,10 +139,4 @@ h6,.h6 {
 	right: 10px;
 }
 
-#topbreadcrumbs a,
-#topbreadcrumbs span,
-#topbreadcrumbs i{
-	font-size: 12px;
-	color: nth($colors-list, 15);
-	font-style: normal;
-}
+.animateme{ visibility: hidden; }

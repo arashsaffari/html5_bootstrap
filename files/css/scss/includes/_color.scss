@@ -1,14 +1,14 @@
 // Colors
 
-@each $current-color in $colors-list {
-	$i: index($colors-list, $current-color);
+@each $colorname, $colorvalue in $colors {
+	
+	.#{$colorname},
+	.hover#{$colorname}:hover			{color:$colorvalue !important}
 
-	.color-#{$i},
-	.hovercolor-#{$i}:hover			{color:$current-color !important}
+	.bg#{$colorname},
+	.hoverbg#{$colorname}:hover			{background-color:$colorvalue !important}
 
-	.bgcolor-#{$i},
-	.hoverbgcolor-#{$i}:hover		{background-color: $current-color !important}
+	.border#{$colorname},
+	.hoverborder#{$colorname}:hover		{border-color:$colorvalue !important}
 
-	.bordercolor-#{$i},
-	.hoverbordercolor-#{$i}:hover	{border-color:$current-color !important;}
 }
