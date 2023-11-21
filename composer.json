@@ -1,6 +1,9 @@
 {
 	"name": "arassaffati/html5_bootstrap",
 	"type": "project",
+	"config": {
+        "process-timeout":0
+    },
 	"scripts": {
 		"sass": "sass --style=compressed ./files/css/scss/base.scss:./files/css/base.css",
 		"sasswatch": "sass --watch --style=compressed ./files/css/scss:./files/css"

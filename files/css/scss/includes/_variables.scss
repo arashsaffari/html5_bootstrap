@@ -109,6 +109,25 @@ $fontsizes: (
 	xs: 90%,
 	s: 80%,
 	m: $body_font_size,
+	65p: 65%,
+	70p: 70%,
+	75p: 75%,
+	80p: 80%,
+	85p: 85%,
+	90p: 90%,
+	100p: $body_font_size,
+	110p: 110%,
+	120p: 120%,
+	130p: 130%,
+	140p: 140%,
+	150p: 140%,
+	160p: 160%,
+	170p: 170%,
+	180p: 180%,
+	190p: 190%,
+	200p: 200%,
+	250p: 250%,
+	300p: 300%,
 	61: calc(1.325rem + .05vw),
 	51: calc(1.325rem + .38vw),
 	41: calc(1.325rem + .65vw),
@@ -133,45 +152,77 @@ $line-heighters: (
 
 $p-line-height:				map-get($line-heighters, l);
 
-$h1-font-size-desktop:		2.8em;
-$h2-font-size-desktop:		2.4em;
-$h3-font-size-desktop: 		2.0em;
-$h4-font-size-desktop: 		1.8em;
-$h5-font-size-desktop: 		1.6em;
-$h6-font-size-desktop: 		1.4em;
-$h7-font-size-desktop: 		1.2em;
+$h1-font-size-xxl:	2.9em;
+$h2-font-size-xxl:	2.5em;
+$h3-font-size-xxl: 	2.1em;
+$h4-font-size-xxl: 	1.8em;
+$h5-font-size-xxl: 	1.7em;
+$h6-font-size-xxl: 	1.6em;
+$h7-font-size-xxl: 	1.5em;
+$h8-font-size-xxl: 	1.4em;
+$h9-font-size-xxl: 	1.3em;
+$h10-font-size-xxl: 1.2em;
+$h11-font-size-xxl: 1.1em;
 
-$h1-font-size-ipad-landscape:		2.6em;
-$h2-font-size-ipad-landscape:		2.2em;
-$h3-font-size-ipad-landscape: 		1.9em;
-$h4-font-size-ipad-landscape: 		1.7em;
-$h5-font-size-ipad-landscape: 		1.5em;
-$h6-font-size-ipad-landscape: 		1.3em;
-$h7-font-size-ipad-landscape: 		1.1em;
+$h1-font-size-xl:	2.7em;
+$h2-font-size-xl:	2.3em;
+$h3-font-size-xl: 	2.0em;
+$h4-font-size-xl: 	1.8em;
+$h5-font-size-xl: 	1.6em;
+$h6-font-size-xl: 	1.5em;
+$h7-font-size-xl: 	1.4em;
+$h8-font-size-xl: 	1.3em;
+$h9-font-size-xl: 	1.2em;
+$h10-font-size-xl: 	1.1em;
+$h11-font-size-xl: 	1.05em;
 
-$h1-font-size-ipad-portrait:		2.4em;
-$h2-font-size-ipad-portrait:		2.1em;
-$h3-font-size-ipad-portrait: 		1.8em;
-$h4-font-size-ipad-portrait: 		1.6em;
-$h5-font-size-ipad-portrait: 		1.4em;
-$h6-font-size-ipad-portrait: 		1.2em;
-$h7-font-size-ipad-portrait: 		1.1em;
+$h1-font-size-lg:	2.4em;
+$h2-font-size-lg:	2.1em;
+$h3-font-size-lg: 	1.9em;
+$h4-font-size-lg: 	1.7em;
+$h5-font-size-lg: 	1.5em;
+$h6-font-size-lg: 	1.4em;
+$h7-font-size-lg: 	1.3em;
+$h8-font-size-lg: 	1.2em;
+$h9-font-size-lg: 	1.1em;
+$h10-font-size-lg: 	1.05em;
+$h11-font-size-lg: 	1.05em;
 
-$h1-font-size-iphone-landscape:		2.2em;
-$h2-font-size-iphone-landscape:		1.9em;
-$h3-font-size-iphone-landscape: 	1.6em;
-$h4-font-size-iphone-landscape: 	1.4em;
-$h5-font-size-iphone-landscape: 	1.2em;
-$h6-font-size-iphone-landscape: 	1.1em;
-$h7-font-size-iphone-landscape: 	1.0em;
+$h1-font-size-md:	2.2em;
+$h2-font-size-md:	1.9em;
+$h3-font-size-md: 	1.7em;
+$h4-font-size-md: 	1.5em;
+$h5-font-size-md: 	1.4em;
+$h6-font-size-md: 	1.3em;
+$h7-font-size-md: 	1.2em;
+$h8-font-size-md: 	1.1em;
+$h9-font-size-md: 	1.05em;
+$h10-font-size-md: 	1.05em;
+$h11-font-size-md: 	1.05em;
 
-$h1-font-size-iphone-portrait:		2.0em;
-$h2-font-size-iphone-portrait:		1.8em;
-$h3-font-size-iphone-portrait: 		1.5em;
-$h4-font-size-iphone-portrait: 		1.3em;
-$h5-font-size-iphone-portrait: 		1.1em;
-$h6-font-size-iphone-portrait: 		1.0em;
-$h7-font-size-iphone-portrait: 		0.9em;
+$h1-font-size-sm:	2.0em;
+$h2-font-size-sm:	1.8em;
+$h3-font-size-sm: 	1.6em;
+$h4-font-size-sm: 	1.4em;
+$h5-font-size-sm: 	1.3em;
+$h6-font-size-sm: 	1.2em;
+$h7-font-size-sm: 	1.1em;
+$h8-font-size-sm: 	1.05em;
+$h9-font-size-sm: 	1.05em;
+$h10-font-size-sm: 	1.05em;
+$h11-font-size-sm: 	1.05em;
+
+$h1-font-size-xs:	1.9em;
+$h2-font-size-xs:	1.7em;
+$h3-font-size-xs: 	1.5em;
+$h4-font-size-xs: 	1.3em;
+$h5-font-size-xs: 	1.2em;
+$h6-font-size-xs: 	1.1em;
+$h7-font-size-xs: 	1.05em;
+$h8-font-size-xs: 	1.05em;
+$h9-font-size-xs: 	1.05em;
+$h10-font-size-xs: 	1.05em;
+$h11-font-size-xs: 	1.05em;
 
 
 

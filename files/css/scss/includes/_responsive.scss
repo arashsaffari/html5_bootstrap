@@ -1,183 +1,351 @@
-/****************
-iPhone landscape and portrait  mode
-*****************/
-@media only screen and (min-width: 320px) and (max-width: 767px){
 
-}
 
 
 /****************
-iPhone portrait mode
+XS
 *****************/
-@media only screen and (max-width: 479px){
+@media only screen and (max-width: 575px){
 
 	h1,.h1 {
-		font-size: $h1-font-size-iphone-portrait;
+		font-size: $h1-font-size-xs;
 	}
 	
 	h2,.h2 {
-		font-size: $h2-font-size-iphone-portrait;
+		font-size: $h2-font-size-xs;
 	}
 	
 	h3,.h3 {
-		font-size: $h3-font-size-iphone-portrait;
+		font-size: $h3-font-size-xs;
 	}
 	
 	h4,.h4 {
-		font-size: $h4-font-size-iphone-portrait;
+		font-size: $h4-font-size-xs;
 	}
 	
 	h5,.h5 {
-		font-size: $h5-font-size-iphone-portrait;
+		font-size: $h5-font-size-xs;
 	}
 	
 	h6,.h6 {
-		font-size: $h6-font-size-iphone-portrait;
+		font-size: $h6-font-size-xs;
 	}
 
 	.h7 {
-		font-size: $h7-font-size-iphone-portrait;
+		font-size: $h7-font-size-xs;
+	}
+
+	.h8 {
+		font-size: $h8-font-size-xs;
+	}
+
+	.h9 {
+		font-size: $h9-font-size-xs;
+	}
+
+	.h10 {
+		font-size: $h10-font-size-xs;
+	}
+
+	.h11 {
+		font-size: $h11-font-size-xs;
 	}
 
 }
 
 
 /****************
-iPhone landscape mode
+SM
 *****************/
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 576px) and (max-width: 767px) {
 
 	h1,.h1 {
-		font-size: $h1-font-size-iphone-landscape;
+		font-size: $h1-font-size-sm;
 	}
 	
 	h2,.h2 {
-		font-size: $h2-font-size-iphone-landscape;
+		font-size: $h2-font-size-sm;
 	}
 	
 	h3,.h3 {
-		font-size: $h3-font-size-iphone-landscape;
+		font-size: $h3-font-size-sm;
 	}
 	
 	h4,.h4 {
-		font-size: $h4-font-size-iphone-landscape;
+		font-size: $h4-font-size-sm;
 	}
 	
 	h5,.h5 {
-		font-size: $h5-font-size-iphone-landscape;
+		font-size: $h5-font-size-sm;
 	}
 	
 	h6,.h6 {
-		font-size: $h6-font-size-iphone-landscape;
+		font-size: $h6-font-size-sm;
 	}
 
 	.h7 {
-		font-size: $h7-font-size-iphone-landscape;
+		font-size: $h7-font-size-sm;
+	}
+
+	.h8 {
+		font-size: $h8-font-size-sm;
+	}
+
+	.h9 {
+		font-size: $h9-font-size-sm;
+	}
+
+	.h10 {
+		font-size: $h10-font-size-sm;
+	}
+
+	.h11 {
+		font-size: $h11-font-size-sm;
 	}
 
 }
 
 
-/****************
-all Desktop & iPad modes
-*****************/
-@media only screen and (min-width: 768px) {
-
-}
-
 
 /****************
-iPad portrait mode
+MD
 *****************/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	h1,.h1 {
-		font-size: $h1-font-size-ipad-portrait;
+		font-size: $h1-font-size-md;
 	}
 	
 	h2,.h2 {
-		font-size: $h2-font-size-ipad-portrait;
+		font-size: $h2-font-size-md;
 	}
 	
 	h3,.h3 {
-		font-size: $h3-font-size-ipad-portrait;
+		font-size: $h3-font-size-md;
 	}
 	
 	h4,.h4 {
-		font-size: $h4-font-size-ipad-portrait;
+		font-size: $h4-font-size-md;
 	}
 	
 	h5,.h5 {
-		font-size: $h5-font-size-ipad-portrait;
+		font-size: $h5-font-size-md;
 	}
 	
 	h6,.h6 {
-		font-size: $h6-font-size-ipad-portrait;
+		font-size: $h6-font-size-md;
 	}
 
 	.h7 {
-		font-size: $h7-font-size-ipad-portrait;
+		font-size: $h7-font-size-md;
+	}
+
+	.h8 {
+		font-size: $h8-font-size-md;
+	}
+
+	.h9 {
+		font-size: $h9-font-size-md;
+	}
+
+	.h10 {
+		font-size: $h10-font-size-md;
+	}
+
+	.h11 {
+		font-size: $h11-font-size-md;
 	}
 }
 
 
 /****************
-iPad landscape mode
+LG
 *****************/
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 	h1,.h1 {
-		font-size: $h1-font-size-ipad-landscape;
+		font-size: $h1-font-size-lg;
 	}
 	
 	h2,.h2 {
-		font-size: $h2-font-size-ipad-landscape;
+		font-size: $h2-font-size-lg;
 	}
 	
 	h3,.h3 {
-		font-size: $h3-font-size-ipad-landscape;
+		font-size: $h3-font-size-lg;
 	}
 	
 	h4,.h4 {
-		font-size: $h4-font-size-ipad-landscape;
+		font-size: $h4-font-size-lg;
 	}
 	
 	h5,.h5 {
-		font-size: $h5-font-size-ipad-landscape;
+		font-size: $h5-font-size-lg;
 	}
 	
 	h6,.h6 {
-		font-size: $h6-font-size-ipad-landscape;
+		font-size: $h6-font-size-lg;
 	}
 
 	.h7 {
-		font-size: $h7-font-size-ipad-landscape;
+		font-size: $h7-font-size-lg;
+	}
+
+	.h8 {
+		font-size: $h8-font-size-lg;
+	}
+
+	.h9 {
+		font-size: $h9-font-size-lg;
+	}
+
+	.h10 {
+		font-size: $h10-font-size-lg;
+	}
+
+	.h11 {
+		font-size: $h11-font-size-lg;
+	}
+}
+
+/****************
+XL
+*****************/
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+	h1,.h1 {
+		font-size: $h1-font-size-xl;
+	}
+	
+	h2,.h2 {
+		font-size: $h2-font-size-xl;
+	}
+	
+	h3,.h3 {
+		font-size: $h3-font-size-xl;
+	}
+	
+	h4,.h4 {
+		font-size: $h4-font-size-xl;
+	}
+	
+	h5,.h5 {
+		font-size: $h5-font-size-xl;
+	}
+	
+	h6,.h6 {
+		font-size: $h6-font-size-xl;
+	}
+
+	.h7 {
+		font-size: $h7-font-size-xl;
+	}
+
+	.h8 {
+		font-size: $h8-font-size-xl;
+	}
+
+	.h9 {
+		font-size: $h9-font-size-xl;
+	}
+
+	.h10 {
+		font-size: $h10-font-size-xl;
+	}
+
+	.h11 {
+		font-size: $h11-font-size-xl;
+	}
+}
+
+/****************
+XXL
+*****************/
+@media only screen and (min-width: 1400px) {
+	h1,.h1 {
+		font-size: $h1-font-size-xxl;
+	}
+	
+	h2,.h2 {
+		font-size: $h2-font-size-xxl;
+	}
+	
+	h3,.h3 {
+		font-size: $h3-font-size-xxl;
+	}
+	
+	h4,.h4 {
+		font-size: $h4-font-size-xxl;
+	}
+	
+	h5,.h5 {
+		font-size: $h5-font-size-xxl;
+	}
+	
+	h6,.h6 {
+		font-size: $h6-font-size-xxl;
+	}
+
+	.h7 {
+		font-size: $h7-font-size-xxl;
+	}
+
+	.h8 {
+		font-size: $h8-font-size-xxl;
+	}
+
+	.h9 {
+		font-size: $h9-font-size-xxl;
+	}
+
+	.h10 {
+		font-size: $h10-font-size-xxl;
+	}
+
+	.h11 {
+		font-size: $h11-font-size-xxl;
 	}
 }
 
 
+
+
+
+
 /****************
-iPhone landscape and portrait  mode
+XS
+*****************/
+@media (min-width: 0px) {
+	
+}
+
+/****************
+SM
 *****************/
 @media (min-width: 576px) {
 	
 }
 
 /****************
-iPad portrait mode
+MD
 *****************/
 @media (min-width: 768px) { 
 
 }
 
 /****************
-iPad landscape mode
+LG
 *****************/
 @media (min-width: 992px) {
 
 }
 
 /****************
-Desktop Normal mode
+XL
 *****************/
 @media (min-width: 1200px) {
+
+}
+
+/****************
+XXL
+*****************/
+@media (min-width: 1400px) {
 
 }
